@@ -1,0 +1,48 @@
+﻿
+.header {
+    padding: 10px 0;
+}
+
+.header-title{
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-left: 35px;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.header-title:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    background: #ff8800;
+    position: absolute;
+    margin-left: -35px;
+    left: 0;
+    top: 0;
+}
+
+.section {
+    padding: 20px 0;
+    background: #f7f7f7;
+}
+
+.section-footer {
+    padding: 10px 0;
+}
+
+.company {
+    color: #ff8800;
+    font-weight: 700;
+}
+
+.text-primary {
+    color: #ff8800 !important;
+}
+
+.text-secondary {
+    color: #a27440 !important;
+}
