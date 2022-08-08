@@ -1,1227 +1,1020 @@
-
-
 <!DOCTYPE html>
-<html lang="en-US">
-   <head>
-      <link rel="shortcut icon" href="http://cargo.bold-themes.com/home-movers/wp-content/uploads/sites/4/2015/12/Movers-16x16.png" type="image/x-icon">
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-      <meta name="mobile-web-app-capable" content="yes">
-      <meta name="apple-mobile-web-app-capable" content="yes">
-      <title>Halol Cargo</title>
-      <meta name='robots' content='max-image-preview:large' />
-      
-           
+<html lang="en">
 
-      <!-- <link rel='stylesheet' id='bt_cc_style-css'  href='http://cargo.bold-themes.com/home-movers/wp-content/plugins/bt_cost_calculator/style.min.css?ver=5.9.3' type='text/css' media='all' /> -->
-      <!-- <link rel='stylesheet' id='contact-form-7-css'  href='http://cargo.bold-themes.com/home-movers/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6' type='text/css' media='all' /> -->
-      
-      <!-- <link rel='stylesheet' id='cargo-style-css'  href='http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo/style.css?ver=5.9.3' type='text/css' media='all' /> -->
+<head>
 
-      <link rel='stylesheet' id='cargo-style-css'  href='./styles/style_003.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='cargo-style-css'  href='./styles/style_002.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='cargo-style-css'  href='./styles/style.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='cargo-style-css'  href='./styles/css_002.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='cargo-style-css'  href='./styles/css_003.css' type='text/css' media='all' />
+	<!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
 
-      <style id='cargo-style-inline-css' type='text/css'>
-         a:hover{ color: #ff8800;} select, input{font-family: Noto Sans;} body{font-family: Noto Sans;} h1, h2, h3, h4, h5, h6{ font-family: Roboto Slab;} .btLightSkin a:hover, .btDarkSkin .btLightSkin a:hover{color: #ff8800;} .btDarkSkin a:hover, .btLightSkin .btDarkSkin a:hover{color: #ff8800;} .btLightSkin select:hover, .btLightSkin textarea:hover, .btLightSkin input:hover, .btDarkSkin .btLightSkin select:hover, .btDarkSkin .btLightSkin textarea:hover, .btDarkSkin .btLightSkin input:hover{ -webkit-box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btLightSkin select:focus, .btLightSkin textarea:focus, .btLightSkin input:focus, .btDarkSkin .btLightSkin select:focus, .btDarkSkin .btLightSkin textarea:focus, .btDarkSkin .btLightSkin input:focus{ -webkit-box-shadow: 5px 0 0 #ff8800 inset,0 2px 10px rgba(0,0,0,.2); box-shadow: 5px 0 0 #ff8800 inset,0 2px 10px rgba(0,0,0,.2);} .btDarkSkin select:hover, .btDarkSkin textarea:hover, .btDarkSkin input:hover, .btLightSkin .btDarkSkin select:hover, .btLightSkin .btDarkSkin textarea:hover, .btLightSkin .btDarkSkin input:hover{-webkit-box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btDarkSkin select:focus, .btDarkSkin textarea:focus, .btDarkSkin input:focus, .btLightSkin .btDarkSkin select:focus, .btLightSkin .btDarkSkin textarea:focus, .btLightSkin .btDarkSkin input:focus{-webkit-box-shadow: 5px 0 0 #ff8800 inset,0 2px 10px rgba(0,0,0,.2); box-shadow: 5px 0 0 #ff8800 inset,0 2px 10px rgba(0,0,0,.2);} .btAccentTitle h1, .btAccentTitle h2, .btAccentTitle h3, .btAccentTitle h4, .btAccentTitle h5, .btAccentTitle h6{color: #ff8800 !important;} .btLightAccentTitle h1, .btLightAccentTitle h2, .btLightAccentTitle h3, .btLightAccentTitle h4, .btLightAccentTitle h5, .btLightAccentTitle h6{color: #ffb866 !important;} .btDarkAccentTitle h1, .btDarkAccentTitle h2, .btDarkAccentTitle h3, .btDarkAccentTitle h4, .btDarkAccentTitle h5, .btDarkAccentTitle h6{color: #d17000 !important;} .btAlternateTitle h1, .btAlternateTitle h2, .btAlternateTitle h3, .btAlternateTitle h4, .btAlternateTitle h5, .btAlternateTitle h6{color: #aaaaaa !important;} .btLightAlternateTitle h1, .btLightAlternateTitle h2, .btLightAlternateTitle h3, .btLightAlternateTitle h4, .btLightAlternateTitle h5, .btLightAlternateTitle h6{color: #dddddd !important;} .btDarkAlternateTitle h1, .btDarkAlternateTitle h2, .btDarkAlternateTitle h3, .btDarkAlternateTitle h4, .btDarkAlternateTitle h5, .btDarkAlternateTitle h6{color: #939393 !important;} .btLoader{ border-top: 5px solid #ff8800;} .menuPort{font-family: Noto Sans;} .btDarkSkin ul li ul li a:hover, .btLightSkin .btDarkSkin ul li ul li a:hover{-webkit-box-shadow: -5px 0 0 #ff8800 inset; box-shadow: -5px 0 0 #ff8800 inset;} .btLightSkin ul li ul li a:hover, .btDarkSkin .btLightSkin ul li ul li a:hover{-webkit-box-shadow: -5px 0 0 #ff8800 inset; box-shadow: -5px 0 0 #ff8800 inset;} .btDarkSkin nav ul li.current-menu-ancestor > a:hover, .btDarkSkin nav ul li.current-menu-item > a:hover, .btLightSkin .btDarkSkin nav ul li.current-menu-ancestor > a:hover, .btLightSkin .btDarkSkin nav ul li.current-menu-item > a:hover{color: #aaaaaa;} .btLightSkin nav ul li.current-menu-ancestor > a:hover, .btLightSkin nav ul li.current-menu-item > a:hover, .btDarkSkin .btLightSkin nav ul li.current-menu-ancestor > a:hover, .btDarkSkin .btLightSkin nav ul li.current-menu-item > a:hover{color: #aaaaaa;} .topBar .btIco .btIcoHolder:before, .menuPort .topBarInMenu .btIco .btIcoHolder:before{color: #d17000;} .topBar .topTools .widget_search .btSearch .btIco.default .btIcoHolder:before, .menuPort .topBarInMenu .widget_search .btSearch .btIco.default .btIcoHolder:before{ color: #ff8800;} .topBar .widget_search h2, .topBarInMenu .widget_search h2{ font-family: Noto Sans;} .topBar .widget_search button, .topBarInMenu .widget_search button{ background: #ff8800;} .topBar .widget_search button:hover, .topBarInMenu .widget_search button:hover{background: #cc6d00;} .btSearchInner.btFromTopBox{ background: #ff8800;} .btSearchInner.btFromTopBox input[type="text"]{ border: 1px solid #d17000;} .btSearchInner.btFromTopBox button:before{ color: #aaaaaa;} .btSearchInner.btFromTopBox button:hover:before{color: #ff8800;} .btLightSkin.btMenuLeft ul li ul li a:hover, .btDarkSkin .btLightSkin.btMenuLeft ul li ul li a:hover{-webkit-box-shadow: 5px 0 0 #ff8800 inset !important; box-shadow: 5px 0 0 #ff8800 inset !important;} .btDarkSkin.btMenuLeft ul li ul li a:hover, .btLightSkin .btDarkSkin.btMenuLeft ul li ul li a:hover{-webkit-box-shadow: 5px 0 0 #ff8800 inset !important; box-shadow: 5px 0 0 #ff8800 inset !important;} .btLightSkin.btMenuCenter .menuPort .leftNav ul li ul li a:hover, .btDarkSkin .btLightSkin.btMenuCenter .menuPort .leftNav ul li ul li a:hover{-webkit-box-shadow: 5px 0 0 #ff8800 inset !important; box-shadow: 5px 0 0 #ff8800 inset !important;} .btDarkSkin.btMenuCenter .menuPort .leftNav ul li ul li a:hover, .btLightSkin .btDarkSkin.btMenuCenter .menuPort .leftNav ul li ul li a:hover{-webkit-box-shadow: 5px 0 0 #ff8800 inset !important; box-shadow: 5px 0 0 #ff8800 inset !important;} .btMenuVerticalLeft .btCloseVertical:before, .btMenuVerticalRight .btCloseVertical:before{ color: #ff8800;} .btMenuVerticalLeft .menuPort ul a:hover, .btMenuVerticalRight .menuPort ul a:hover{color: #aaaaaa;} .btMenuVerticalLeft .menuPort ul li .subToggler .btIcoHolder:before, .btMenuVerticalRight .menuPort ul li .subToggler .btIcoHolder:before{color: #aaaaaa;} .btSiteFooter .menu li a{color: #ffcf99;} .btSiteFooter .menu li a:hover{color: #ff8800;} .btSiteFooterWidgets .btBox h4{color: #ffb866;} .btSiteFooterWidgets .btBox a:hover{color: #ffcf99;} .btSiteFooterWidgets .recentTweets small:before{color: #ffb866;} .btSiteFooterCurve .btSiteFooterCurveSleeve{background: #c76a00;} .btSiteFooterCurve .btCurveLeft, .btSiteFooterCurve .btCurveRight{fill: #c76a00;} .btLightSkin .btSiteFooterWidgets, .btDarkSkin .btLightSkin .btSiteFooterWidgets{background: #c76a00;} .btLightSkin .btSiteFooter, .btDarkSkin .btLightSkin .btSiteFooter{ background: #c76a00;} .btDarkSkin .btSiteFooterWidgets, .btLightSkin .btDarkSkin .btSiteFooterWidgets{background: #c76a00;} .btDarkSkin .btSiteFooter, .btLightSkin .btDarkSkin .btSiteFooter{ background: #c76a00;} .sticky .btSubTitle:after{background: #aaaaaa;} .commentsBox h4, h3.comment-reply-title{ color: #aaaaaa;} .btBox h4{ color: #ff8800;} .btBox h5{ color: #aaaaaa;} .btLightSkin .btSidebar .btBox a:hover, .btDarkSkin .btLightSkin .btSidebar .btBox a:hover{color: #ff8800;} .btDarkSkin .btSidebar .btBox a:hover, .btLightSkin .btDarkSkin .btSidebar .btBox a:hover{color: #aaaaaa;} .btBox.widget_calendar table caption{background: #ff8800; font-family: Roboto Slab;} .btBox.widget_archive ul li a, .btBox.widget_categories ul li a{ font-family: Roboto Slab;} .btLightSkin .btBox.widget_archive ul li a:hover, .btLightSkin .btBox.widget_categories ul li a:hover, .btDarkSkin .btLightSkin .btBox.widget_archive ul li a:hover, .btDarkSkin .btLightSkin .btBox.widget_categories ul li a:hover{ background: #ff8800;} .btDarkSkin .btBox.widget_archive ul li a:hover, .btDarkSkin .btBox.widget_categories ul li a:hover, .btLightSkin .btDarkSkin .btBox.widget_archive ul li a:hover, .btLightSkin .btDarkSkin .btBox.widget_categories ul li a:hover{ background: #ff8800;} .btBox.widget_recent_comments .comment-author-link a{color: #ff8800;} .btBox.widget_recent_comments .comment-author-link a:hover{color: #aaaaaa;} .btBox.widget_rss li a.rsswidget{font-family: Roboto Slab;} .btBox.widget_rss li cite:before{ color: #ff8800;} .btBox .btSearch button{ background: #aaaaaa; border: 1px solid #939393; -webkit-box-shadow: 0 0 0 2px transparent inset,0 1px 0 #939393 inset; box-shadow: 0 0 0 2px transparent inset,0 1px 0 #939393 inset;} .btBox .btSearch button:hover{ border: 1px solid #aaaaaa; -webkit-box-shadow: 0 0 0 2px #aaaaaa inset,0 1px 0 transparent inset; box-shadow: 0 0 0 2px #aaaaaa inset,0 1px 0 transparent inset; color: #aaaaaa;} .btBox.widget_tag_cloud .tagcloud a{ background: #ff8800;} .btBox.widget_tag_cloud .tagcloud a:hover{background: #aaaaaa;} .btTags ul li a{ background: #ff8800;} .btTags ul li a:hover{background: #aaaaaa;} .btHasGhost .fullScreenHeight.btGhost .btArticleComments:hover:before{color: #ff8800 !important;} .btArticleComments:hover, .btArticleComments:hover:before{ color: #ff8800 !important;} .btArticleCategories a:hover{color: #ff8800 !important;} .btContent table tr th, .btContent table thead tr th{background: #ff8800;} .btContent table tbody tr:nth-child(even) th{background: #d17000;} .btContent table tbody tr:nth-child(odd) th{background: #ff8800;} .post-password-form input[type="submit"]{ background: #ff8800; font-family: Roboto Slab;} .btPagination .paging a{ color: #aaaaaa;} .btPagination .paging a:after{ -webkit-box-shadow: 0 0 0 0 #ff8800 inset; box-shadow: 0 0 0 0 #ff8800 inset;} .btPagination .paging a:hover:after{background: #ff8800; -webkit-box-shadow: 0 0 0 50px #ff8800 inset; box-shadow: 0 0 0 50px #ff8800 inset;} .btLinkPages a:hover{background: #ff8800;} .articleSideGutter{ background: #aaaaaa;} .articleSideGutter .asgItem.avatar a:hover:before{-webkit-box-shadow: 0 0 0 3px #ff8800 inset; box-shadow: 0 0 0 3px #ff8800 inset;} .btLightSkin .articleSideGutter:before, .btDarkSkin .btLightSkin .articleSideGutter:before{border-right-color: #dddddd;} .btDarkSkin .articleSideGutter:before, .btLightSkin .btDarkSkin .articleSideGutter:before{border-right-color: #939393;} .comment-respond .btnOutline.btnNormalColor button[type="submit"]{font-family: Roboto Slab; color: #aaaaaa !important;} .comment-respond .btnOutline.btnNormalColor:hover{ -webkit-box-shadow: 0 0 0 2px #aaaaaa inset,0 1px 0 transparent inset; box-shadow: 0 0 0 2px #aaaaaa inset,0 1px 0 transparent inset;} .gridItem .boldPhotoSlide .slick-arrow:hover{-webkit-box-shadow: 0 0 0 25px #ff8800 inset; box-shadow: 0 0 0 25px #ff8800 inset;} .btSingleLatestPost .btLatestPostsDate{background: #ff8800;} .btSingleLatestPost .btLatestPostsDate:before{ border-color: transparent transparent transparent #dddddd;} .btLightSkin .btLatestPostsDate:before, .btDarkSkin .btLightSkin .btLatestPostsDate:before{border-left-color: #dddddd;} .btDarkSkin .btLatestPostsDate:before, .btLightSkin .btDarkSkin .btLatestPostsDate:before{border-left-color: #939393;} .fancy-select .trigger.open{ background: #ff8800;} .fancy-select .options li.selected{background: #aaaaaa;} .fancy-select .options li:hover, .fancy-select .options li.selected:hover{background-color: #aaaaaa !important;} .btLightSkin .fancy-select .options li.selected, .btDarkSkin .btLightSkin .fancy-select .options li.selected{background: #aaaaaa;} .btLightSkin .fancy-select .options li:hover, .btDarkSkin .btLightSkin .fancy-select .options li:hover, .btLightSkin .fancy-select .options li.selected:hover, .btDarkSkin .btLightSkin .fancy-select .options li.selected:hover{background-color: #aaaaaa !important;} .btDarkSkin .fancy-select .options li.selected, .btLightSkin .btDarkSkin .fancy-select .options li.selected{background: #aaaaaa;} .btDarkSkin .fancy-select .options li:hover, .btLightSkin .btDarkSkin .fancy-select .options li:hover, .btDarkSkin .fancy-select .options li.selected:hover, .btLightSkin .btDarkSkin .fancy-select .options li.selected:hover{background-color: #aaaaaa !important;} .btDropdown .fancy-select .trigger.open{border-color: #ff8800;} .recentTweets small:before{ color: #ff8800;} .btIco .btIcoHolder:before{color: #ff8800; border: 1px solid #ff8800;} .btIco.white .btIcoHolder:before{ color: #ff8800;} .btIco.accent .btIcoHolder:before{background-color: #ff8800;} .btReadMore .btIco.default .btIcoHolder:before{background: #aaaaaa; border-color: #aaaaaa;} .btReadMore .btIco.default:hover .btIcoHolder:before{background: #ff8800; border-color: #d17000;} .btCounterHolder{font-family: Roboto Slab;} .btLightSkin .btCounterHolder, .btDarkSkin .btLightSkin .btCounterHolder{color: #ff8800;} .btLightSkin .btProgressContent .btProgressAnim, .btDarkSkin .btLightSkin .btProgressContent .btProgressAnim{background-color: #ff8800;} .btDarkSkin .btProgressContent .btProgressAnim, .btLightSkin .btDarkSkin .btProgressContent .btProgressAnim{background-color: #ff8800;} .btPriceTable .btPriceTableHeader{background: #ff8800;} .btPriceTable .btPriceTableSticker{ background: #aaaaaa;} .header .btSuperTitle{font-family: Noto Sans;} .header .btSubTitle{font-family: Noto Sans;} .btDash.bottomDash .dash:after, .btDash.topDash .dash:before{ border-bottom: 3px solid #ff8800;} .header.large .dash:after, .header.large .dash:before{border-color: #ff8800;} .header.extralarge .dash:after, .header.extralarge .dash:before{border-color: #ff8800;} .header.huge .dash:after, .header.huge .dash:before{border-color: #ff8800;} .header.small.btDarkAccentDash .dash:after, .header.medium.btDarkAccentDash .dash:after, .header.large.btDarkAccentDash .dash:after, .header.extralarge.btDarkAccentDash .dash:after, .header.huge.btDarkAccentDash .dash:after, .header.small.btDarkAccentDash .dash:before, .header.medium.btDarkAccentDash .dash:before, .header.large.btDarkAccentDash .dash:before, .header.extralarge.btDarkAccentDash .dash:before, .header.huge.btDarkAccentDash .dash:before{border-color: #d17000;} .header.small.btLightAccentDash .dash:after, .header.medium.btLightAccentDash .dash:after, .header.large.btLightAccentDash .dash:after, .header.extralarge.btLightAccentDash .dash:after, .header.huge.btLightAccentDash .dash:after, .header.small.btLightAccentDash .dash:before, .header.medium.btLightAccentDash .dash:before, .header.large.btLightAccentDash .dash:before, .header.extralarge.btLightAccentDash .dash:before, .header.huge.btLightAccentDash .dash:before{border-color: #ffb866;} .header.small.btAlternateDash .dash:after, .header.medium.btAlternateDash .dash:after, .header.large.btAlternateDash .dash:after, .header.extralarge.btAlternateDash .dash:after, .header.huge.btAlternateDash .dash:after, .header.small.btAlternateDash .dash:before, .header.medium.btAlternateDash .dash:before, .header.large.btAlternateDash .dash:before, .header.extralarge.btAlternateDash .dash:before, .header.huge.btAlternateDash .dash:before{border-color: #aaaaaa;} .header.small.btDarkAlternateDash .dash:after, .header.medium.btDarkAlternateDash .dash:after, .header.large.btDarkAlternateDash .dash:after, .header.extralarge.btDarkAlternateDash .dash:after, .header.huge.btDarkAlternateDash .dash:after, .header.small.btDarkAlternateDash .dash:before, .header.medium.btDarkAlternateDash .dash:before, .header.large.btDarkAlternateDash .dash:before, .header.extralarge.btDarkAlternateDash .dash:before, .header.huge.btDarkAlternateDash .dash:before{border-color: #939393;} .header.small.btLightAlternateDash .dash:after, .header.medium.btLightAlternateDash .dash:after, .header.large.btLightAlternateDash .dash:after, .header.extralarge.btLightAlternateDash .dash:after, .header.huge.btLightAlternateDash .dash:after, .header.small.btLightAlternateDash .dash:before, .header.medium.btLightAlternateDash .dash:before, .header.large.btLightAlternateDash .dash:before, .header.extralarge.btLightAlternateDash .dash:before, .header.huge.btLightAlternateDash .dash:before{border-color: #dddddd;} .btBtn{ font-family: Noto Sans;} .btBtn.btnBorderless.btBtnAccentLight a, .btBtn.btnBorderless.btBtnAccentLight a:before{color: #ffb866 !important;} .btLightSkin .btBtn.btnBorderless.btBtnAccentLight a:hover, .btLightSkin .btBtn.btnBorderless.btBtnAccentLight a:before, .btLightSkin .btBtn.btnBorderless.btBtnAccentLight a:hover:before, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btBtnAccentLight a:hover, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btBtnAccentLight a:before, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btBtnAccentLight a:hover:before{color: #ff8800 !important;} .btLightSkin .btBtn.btnBorderless.btnAccentColor a:hover, .btLightSkin .btBtn.btnBorderless.btnAccentColor a:before, .btLightSkin .btBtn.btnBorderless.btnAccentColor a:hover:before, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btnAccentColor a:hover, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btnAccentColor a:before, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btnAccentColor a:hover:before{color: #d17000 !important;} .btLightSkin .btBtn.btnBorderless.btnNormalColor a:hover, .btLightSkin .btBtn.btnBorderless.btnNormalColor a:before, .btLightSkin .btBtn.btnBorderless.btnNormalColor a:hover:before, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btnNormalColor a:hover, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btnNormalColor a:before, .btDarkSkin .btLightSkin .btBtn.btnBorderless.btnNormalColor a:hover:before{color: #939393 !important;} .btLightSkin .btnFilled.btnAccentColor, .btLightSkin .btnOutline.btnAccentColor:hover, .btDarkSkin .btLightSkin .btnFilled.btnAccentColor, .btDarkSkin .btLightSkin .btnOutline.btnAccentColor:hover, .btDarkSkin .btnFilled.btnAccentColor, .btDarkSkin .btnOutline.btnAccentColor:hover, .btLightSkin .btDarkSkin .btnFilled.btnAccentColor, .btLightSkin .btDarkSkin .btnOutline.btnAccentColor:hover{background: #ff8800;} .btLightSkin .btnOutline.btnAccentColor, .btDarkSkin .btLightSkin .btnOutline.btnAccentColor, .btDarkSkin .btnOutline.btnAccentColor, .btLightSkin .btDarkSkin .btnOutline.btnAccentColor{ border: 2px solid #ff8800; color: #ff8800;} .btLightSkin .btnOutline.btnAccentColor a, .btDarkSkin .btLightSkin .btnOutline.btnAccentColor a, .btDarkSkin .btnOutline.btnAccentColor a, .btLightSkin .btDarkSkin .btnOutline.btnAccentColor a, .btLightSkin .btnOutline.btnAccentColor a:before, .btDarkSkin .btLightSkin .btnOutline.btnAccentColor a:before, .btDarkSkin .btnOutline.btnAccentColor a:before, .btLightSkin .btDarkSkin .btnOutline.btnAccentColor a:before, .btLightSkin .btnOutline.btnAccentColor button, .btDarkSkin .btLightSkin .btnOutline.btnAccentColor button, .btDarkSkin .btnOutline.btnAccentColor button, .btLightSkin .btDarkSkin .btnOutline.btnAccentColor button{color: #ff8800;} .btLightSkin .btnFilled.btnAccentColor:hover, .btDarkSkin .btLightSkin .btnFilled.btnAccentColor:hover, .btDarkSkin .btnFilled.btnAccentColor:hover, .btLightSkin .btDarkSkin .btnFilled.btnAccentColor:hover{background: #d17000;} .btLightSkin .btnFilled.btnNormalColor, .btLightSkin .btnOutline.btnNormalColor:hover, .btDarkSkin .btLightSkin .btnFilled.btnNormalColor, .btDarkSkin .btLightSkin .btnOutline.btnNormalColor:hover, .btDarkSkin .btnFilled.btnNormalColor, .btDarkSkin .btnOutline.btnNormalColor:hover, .btLightSkin .btDarkSkin .btnFilled.btnNormalColor, .btLightSkin .btDarkSkin .btnOutline.btnNormalColor:hover{background: #aaaaaa;} .btLightSkin .btnOutline.btnNormalColor, .btDarkSkin .btLightSkin .btnOutline.btnNormalColor, .btDarkSkin .btnOutline.btnNormalColor, .btLightSkin .btDarkSkin .btnOutline.btnNormalColor{ border: 2px solid #aaaaaa; color: #aaaaaa;} .btLightSkin .btnOutline.btnNormalColor a, .btDarkSkin .btLightSkin .btnOutline.btnNormalColor a, .btDarkSkin .btnOutline.btnNormalColor a, .btLightSkin .btDarkSkin .btnOutline.btnNormalColor a, .btLightSkin .btnOutline.btnNormalColor a:before, .btDarkSkin .btLightSkin .btnOutline.btnNormalColor a:before, .btDarkSkin .btnOutline.btnNormalColor a:before, .btLightSkin .btDarkSkin .btnOutline.btnNormalColor a:before, .btLightSkin .btnOutline.btnNormalColor button, .btDarkSkin .btLightSkin .btnOutline.btnNormalColor button, .btDarkSkin .btnOutline.btnNormalColor button, .btLightSkin .btDarkSkin .btnOutline.btnNormalColor button{color: #aaaaaa;} .btLightSkin .btnFilled.btnNormalColor:hover, .btDarkSkin .btLightSkin .btnFilled.btnNormalColor:hover, .btDarkSkin .btnFilled.btnNormalColor:hover, .btLightSkin .btDarkSkin .btnFilled.btnNormalColor:hover{background: #939393;} .btLightSkin .gridItem .btGridContent .btSuperTitle a:hover, .btDarkSkin .btLightSkin .gridItem .btGridContent .btSuperTitle a:hover{color: #aaaaaa;} .btDarkSkin .gridItem .btGridContent .btSuperTitle a:hover, .btLightSkin .btDarkSkin .gridItem .btGridContent .btSuperTitle a:hover{color: #aaaaaa;} .btCatFilter .btCatFilterItem{ color: #ff8800;} .btCatFilter .btCatFilterItem:hover{color: #aaaaaa; border-bottom-color: #aaaaaa;} .btCatFilter .btCatFilterItem:hover:after{background: #aaaaaa;} .btMediaBox blockquote{ background-color: #ff8800;} .btMediaBox.btLink{ background-color: #ff8800;} .btMediaBox blockquote{background-color: #ff8800;} .nbsImgHolder{ border: 3px solid #ff8800;} span.nbsDir{ color: #aaaaaa;} .btLightSkin span.nbsTitle, .btDarkSkin .btLightSkin span.nbsTitle{color: #ff8800;} .slided .slick-dots li button:hover, .slided .slick-dots li.slick-active button:hover{border-color: #aaaaaa;} .slided .slick-dots li.slick-active button{border-color: #ff8800;} .btLightSkin .btTestimonialsSlider .slidedItem .btSliderPort .btSliderCell .header .btSubTitle, .btDarkSkin .btLightSkin .btTestimonialsSlider .slidedItem .btSliderPort .btSliderCell .header .btSubTitle{color: #aaaaaa;} .btLightSkin .btTestimonialsSlider .slidedItem .btSliderPort .btSliderCell .btCircleImage, .btDarkSkin .btLightSkin .btTestimonialsSlider .slidedItem .btSliderPort .btSliderCell .btCircleImage{border-color: #aaaaaa;} .btLightSkin .btTestimonialsSlider .slidedItem .btSliderPort .btSliderCell .btSliderPort .btCircleImage .btImage, .btDarkSkin .btLightSkin .btTestimonialsSlider .slidedItem .btSliderPort .btSliderCell .btSliderPort .btCircleImage .btImage{border-color: #aaaaaa;} .btInfoBarMeta p strong{color: #ff8800;} .tabsHeader li.on{ color: #ff8800;} .btLightSkin .tabsHeader li.on, .btDarkSkin .btLightSkin .tabsHeader li.on{color: #ff8800;} .btDarkSkin .tabsHeader li.on, .btLightSkin .btDarkSkin .tabsHeader li.on{color: #ff8800;} .btLightSkin .tabsHeader li:not(on):hover, .btDarkSkin .btLightSkin .tabsHeader li:not(on):hover{color: #ff8800; border-bottom-color: #ff8800;} .btDarkSkin .tabsHeader li:not(on):hover, .btLightSkin .btDarkSkin .tabsHeader li:not(on):hover{color: #ff8800; border-bottom-color: #ff8800;} .tabsVertical .tabAccordionTitle:hover{color: #ff8800;} .btLightSkin .tabAccordionTitle.on, .btDarkSkin .btLightSkin .tabAccordionTitle.on{ color: #ff8800;} .btDarkSkin .tabAccordionTitle.on, .btLightSkin .btDarkSkin .tabAccordionTitle.on{ color: #ff8800;} .btLightSkin .btLatestPostsContainer .btSingleLatestPostContent .header.small h4 a:hover, .btDarkSkin .btLightSkin .btLatestPostsContainer .btSingleLatestPostContent .header.small h4 a:hover{color: #ff8800;} .btDarkSkin .btLatestPostsContainer .btSingleLatestPostContent .header.small h4 a:hover, .btLightSkin .btDarkSkin .btLatestPostsContainer .btSingleLatestPostContent .header.small h4 a:hover{color: #ff8800;} .btCustomMenu{ font-family: Noto Sans;} .btCustomMenu ul li a{ -webkit-box-shadow: 0 0 0 #ff8800 inset; box-shadow: 0 0 0 #ff8800 inset;} .btCustomMenu ul li a:hover{ -webkit-box-shadow: -5px 0 0 #ff8800 inset; box-shadow: -5px 0 0 #ff8800 inset;} .btCustomMenu ul li .customSubToggler a.btIcoHolder:before{ color: #aaaaaa;} .btCustomMenu ul li.current-menu-item > a{color: #ff8800;} .btLightSkin .wpcf7-submit, .btDarkSkin .btLightSkin .wpcf7-submit, .btDarkSkin .wpcf7-submit, .btLightSkin .btDarkSkin .wpcf7-submit{background: #ff8800;} .btLightSkin .wpcf7-submit:hover, .btDarkSkin .btLightSkin .wpcf7-submit:hover, .btDarkSkin .wpcf7-submit:hover, .btLightSkin .btDarkSkin .wpcf7-submit:hover{ color: #ff8800;} .btQuoteBooking .btQuoteSwitch.on .btQuoteSwitchInner, .btQuoteBooking .ui-slider .ui-slider-handle, .btQuoteBooking .btQuoteBookingForm .btQuoteTotal, .btDatePicker .ui-datepicker-header, .btQuoteBooking .btContactSubmit{background: #ff8800;} .btQuoteBooking .btContactNext{border-color: #ff8800;} .btQuoteBooking .btQuoteSwitch:hover{-webkit-box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking input[type="text"]:hover, .btQuoteBooking input[type="email"]:hover, .btQuoteBooking input[type="password"]:hover, .btQuoteBooking textarea:hover, .btQuoteBooking .fancy-select .trigger:hover{-webkit-box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking .dd.ddcommon.borderRadius:hover .ddTitleText{-webkit-box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking input[type="text"]:focus, .btQuoteBooking input[type="email"]:focus, .btQuoteBooking textarea:focus, .btQuoteBooking .fancy-select .trigger.open{-webkit-box-shadow: 5px 0 0 #ff8800 inset,0 2px 10px rgba(0,0,0,.2); box-shadow: 5px 0 0 #ff8800 inset,0 2px 10px rgba(0,0,0,.2);} .btQuoteBooking .dd.ddcommon.borderRadiusTp .ddTitleText, .btQuoteBooking .dd.ddcommon.borderRadiusBtm .ddTitleText{-webkit-box-shadow: 5px 0 0 #ff8800 inset,0 2px 10px rgba(0,0,0,.2); box-shadow: 5px 0 0 #ff8800 inset,0 2px 10px rgba(0,0,0,.2);} .btQuoteBooking .btContactFieldMandatory input:hover, .btQuoteBooking .btContactFieldMandatory textarea:hover{-webkit-box-shadow: 0 0 0 1px #AAA inset,0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 1px #AAA inset,0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking .btContactFieldMandatory .dd.ddcommon.borderRadius:hover .ddTitleText{-webkit-box-shadow: 0 0 0 1px #AAA inset,0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 1px #AAA inset,0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking .btContactFieldMandatory input:focus, .btQuoteBooking .btContactFieldMandatory textarea:focus{-webkit-box-shadow: 0 0 0 1px #AAA inset,5px 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 1px #AAA inset,5px 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking .btContactFieldMandatory .dd.ddcommon.borderRadiusTp .ddTitleText{-webkit-box-shadow: 0 0 0 1px #AAA inset,5px 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 1px #AAA inset,5px 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking .btContactFieldMandatory.btContactFieldError input, .btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea{border: 1px solid #ff8800; -webkit-box-shadow: 0 0 0 1px #ff8800 inset; box-shadow: 0 0 0 1px #ff8800 inset;} .btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius .ddTitleText{border: 1px solid #ff8800; -webkit-box-shadow: 0 0 0 1px #ff8800 inset; box-shadow: 0 0 0 1px #ff8800 inset;} .btQuoteBooking .btContactFieldMandatory.btContactFieldError input:hover, .btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea:hover{-webkit-box-shadow: 0 0 0 1px #ff8800 inset,0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 1px #ff8800 inset,0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius:hover .ddTitleText{-webkit-box-shadow: 0 0 0 1px #ff8800 inset,0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 1px #ff8800 inset,0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking .btContactFieldMandatory.btContactFieldError input:focus, .btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea:focus{-webkit-box-shadow: 0 0 0 1px #ff8800 inset,5px 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 1px #ff8800 inset,5px 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadiusTp .ddTitleText{-webkit-box-shadow: 0 0 0 1px #ff8800 inset,5px 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 1px #ff8800 inset,5px 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btPayPalButton:hover{-webkit-box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2); box-shadow: 0 0 0 #ff8800 inset,0 1px 5px rgba(0,0,0,.2);} .btDarkSkin .btQuoteBooking .btContactFieldMandatory.btContactFieldError input, .btLightSkin .btDarkSkin .btQuoteBooking .btContactFieldMandatory.btContactFieldError input, .btDarkSkin .btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea, .btLightSkin .btDarkSkin .btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea{border-color: #ff8800;} .btQuoteBooking .btContactNext{background: #ff8800; border: 1px solid #ff8800; -webkit-box-shadow: 0 0 0 1px #ff8800 inset,0 1px 0 transparent inset; box-shadow: 0 0 0 1px #ff8800 inset,0 1px 0 transparent inset;} .btQuoteBooking .btContactNext:hover{background: #d17000; border: 1px solid #d17000; -webkit-box-shadow: 0 0 0 1px transparent inset,0 1px 0 #d17000 inset; box-shadow: 0 0 0 1px transparent inset,0 1px 0 #d17000 inset;} .btQuoteBooking .btContactSubmit{background: #ff8800; border: 1px solid #ff8800; -webkit-box-shadow: 0 0 0 1px #ff8800 inset,0 1px 0 transparent inset; box-shadow: 0 0 0 1px #ff8800 inset,0 1px 0 transparent inset;} .btQuoteBooking .btContactSubmit:hover{background: #d17000; border: 1px solid #d17000; -webkit-box-shadow: 0 0 0 1px transparent inset,0 1px 0 #d17000 inset; box-shadow: 0 0 0 1px transparent inset,0 1px 0 #d17000 inset;} .wp-block-button__link:hover{color: #ff8800 !important;}
-      </style>
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 
-      <link rel='stylesheet' id='cargo-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CNoto+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CRoboto+Slab%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CNoto+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CNoto+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0' type='text/css' media='all' />
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/plugins/bt_cost_calculator/jquery.dd.js?ver=5.9.3' id='bt_cc_dd-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/plugins/bt_cost_calculator/cc.main.js?ver=5.9.3' id='bt_cc_main-js'></script>
-      <script type='text/javascript' id='bt_cc_main-js-after'>
-         window.bt_cc_translate = [];window.bt_cc_translate['prev'] = 'Prev';window.bt_cc_translate['next'] = 'Next';window.bt_cc_translate['su'] = 'Su';window.bt_cc_translate['mo'] = 'Mo';window.bt_cc_translate['tu'] = 'Tu';window.bt_cc_translate['we'] = 'We';window.bt_cc_translate['th'] = 'Th';window.bt_cc_translate['fr'] = 'Fr';window.bt_cc_translate['sa'] = 'Sa';window.bt_cc_translate['january'] = 'January';window.bt_cc_translate['february'] = 'February';window.bt_cc_translate['march'] = 'March';window.bt_cc_translate['april'] = 'April';window.bt_cc_translate['may'] = 'May';window.bt_cc_translate['june'] = 'June';window.bt_cc_translate['july'] = 'July';window.bt_cc_translate['august'] = 'August';window.bt_cc_translate['september'] = 'September';window.bt_cc_translate['october'] = 'October';window.bt_cc_translate['november'] = 'November';window.bt_cc_translate['december'] = 'December';
-      </script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/plugins/cargo/bt_elements.js?ver=5.9.3' id='bt_plugin_enqueue-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo/js/jquery.magnific-popup.min.js?ver=5.9.3' id='jquery-magnific-popup-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo/js/slick.min.js?ver=5.9.3' id='slick-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo/js/fancySelect.js?ver=5.9.3' id='fancySelect-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo/js/misc.js?ver=5.9.3' id='cargo-misc-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo/js/header.misc.js?ver=5.9.3' id='cargo-header-misc-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo/js/dir.hover.js?ver=5.9.3' id='cargo-dir-hover-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo/js/sliders.js?ver=5.9.3' id='cargo-sliders-js'></script>
-      <link rel="https://api.w.org/" href="http://cargo.bold-themes.com/home-movers/wp-json/" />
-      <link rel="alternate" type="application/json" href="http://cargo.bold-themes.com/home-movers/wp-json/wp/v2/pages/66" />
-      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cargo.bold-themes.com/home-movers/xmlrpc.php?rsd" />
-      <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cargo.bold-themes.com/home-movers/wp-includes/wlwmanifest.xml" />
-      <meta name="generator" content="WordPress 5.9.3" />
-      <link rel="canonical" href="http://cargo.bold-themes.com/home-movers/" />
-      <link rel='shortlink' href='http://cargo.bold-themes.com/home-movers/' />
-      <link rel="alternate" type="application/json+oembed" href="http://cargo.bold-themes.com/home-movers/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcargo.bold-themes.com%2Fhome-movers%2F" />
-      <link rel="alternate" type="text/xml+oembed" href="http://cargo.bold-themes.com/home-movers/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcargo.bold-themes.com%2Fhome-movers%2F&#038;format=xml" />
-   </head>
-   <body class="home page-template-default page page-id-66 bodyPreloader btMenuRightEnabled btStickyEnabled btLightSkin btBelowMenu btTopToolsInMenuArea btMenuGutter btNoSidebar">
-      <div class="btPageWrap" id="top">
-         <header class="mainHeader btClear">
-            <div class="port">
-               <div class="menuHolder btClear">
-                  <div class="btVerticalMenuTrigger">
-                     &nbsp;
-                     <div class="btIco borderless extrasmall"><a href="#"  data-ico-fa="&#xf0c9;" class="btIcoHolder"></a></div>
-                  </div>
-                  <div class="btHorizontalMenuTrigger">
-                     &nbsp;
-                     <div class="btIco borderless extrasmall"><a href="#"  data-ico-fa="&#xf0c9;" class="btIcoHolder"></a></div>
-                  </div>
-                  <div class="logo">
-                     <span>
-                     <a href="http://cargo.bold-themes.com/home-movers/"><img class="btMainLogo" src="./img/hm-logo.png" alt="Home movers"><img class="btAltLogo" src="./img/hm-logo-white.png" alt="Home movers"></a>					</span>
-                  </div>
-                  <!-- /logo -->
-                  <div class="menuPort">
-                     <div class="topBarInMenu">
-                        <div class="topBarInMenuCell">
-                           <div class="btIco borderless extrasmall"><a href="https://www.facebook.com/boldthemes/"  target="_blank"  data-ico-fa="&#xf09a;" class="btIcoHolder"></a></div>
-                           <div class="btIco borderless extrasmall"><a href="https://twitter.com/bold_themes"  target="_blank"  data-ico-fa="&#xf099;" class="btIcoHolder"></a></div>
-                           <div class="btTopBox widget_search">
-                              <div class="btSearch">
-                                 <div class="btIco default extrasmall"><a href="#"  data-ico-fa="&#xf002;" class="btIcoHolder"></a></div>
-                                 <div class="btSearch">
-                                    <div class="btSearchInner" role="search">
-                                       <div class="btSearchInnerContent">
-                                          <form action="http://cargo.bold-themes.com/home-movers/" method="get"><input type="text" name="s" placeholder="Looking for..." class="untouched">
-                                             <button type="submit" data-icon="&#xf105;"></button>
-                                          </form>
-                                          <div class="btSearchInnerClose">
-                                             <div class="btIco borderless small"><a href="#"  data-ico-fa="&#xf00d;" class="btIcoHolder"></a></div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- /topBarInMenu -->
-                     </div>
-                     <!-- /topBarInMenuCell -->
-                     <nav>
-                        <ul>
-                           <li id="menu-item-67" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-67"><a href="#top">Home</a></li>
-                           <li id="menu-item-68" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68"><a href="#about-us">About us</a></li>
-                           <li id="menu-item-69" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69"><a href="#services">Services</a></li>
-                           <li id="menu-item-70" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a href="#get-quote">Get a quote</a></li>
-                           <li id="menu-item-71" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="#contact">Contact</a></li>
-                        </ul>
-                     </nav>
-                  </div>
-                  <!-- .menuPort -->
-               </div>
-               <!-- /menuHolder -->
+    <!-- PAGE TITLE HERE -->
+    <title>Halol-cargo | грузоперевозки</title>
+
+    <!-- MOBILE SPECIFIC -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- BOOTSTRAP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- FONTAWESOME STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- OWL CAROUSEL STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <!-- SLICK CAROUSEL STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/slick.min.css">
+    <!-- SLICK CAROUSEL STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <!-- MAGNIFIC POPUP STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
+    <!-- SWIPER SLIDER STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" />
+    <!-- MAIN STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Lc light box popup -->
+    <link rel="stylesheet" href="css/lc_lightbox.css" />
+    <!-- Price Range Slider -->
+    <link rel="stylesheet" href="css/bootstrap-slider.min.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- LOADING AREA START ===== -->
+<div class="loading-area">
+    <div class="loading-box"></div>
+    <div class="loading-pic">
+        <div id="outer-barG">
+            <div id="front-barG" class="bar-animationG">
+                <div id="barG_1" class="bar-lineG"></div>
+                <div id="barG_2" class="bar-lineG"></div>
+                <div id="barG_3" class="bar-lineG"></div>
             </div>
-            <div class="btCurveHeader">
-               <div class="btCurveHolder">
-                  <div class="btCurveLeftHolder">
-                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="20px" viewBox="0 0 80 20" enable-background="new 0 0 80 20" xml:space="preserve">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M 81 20 c 0 0 -16 0 -30 0 c -30 0 -23 -15 -50 -15 l 0 -5 L 81 0 L 81 20 Z" class="btCurveLeft"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M 81 -1 L 31 -1 c 27 -1 21 15 51 16 C 82 3 82 -1 82 -1 Z" class="btCurveLeftFill"/>
-                     </svg>
-                  </div>
-                  <div class="btCurveRightHolder">
-                     <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="20px" viewBox="0 0 80 20" enable-background="new 0 0 80 20" xml:space="preserve">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M 0 20 c 0 0 16 0 30 0 c 30 0 23 -15 50 -15 l 0 -5 L 0 0 L 0 20 Z" class="btCurveRight"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M -1 -1 L 50 -1 C 23 -1 30 15 -1 15 C -1 3 -1 -1 -1 -1 Z" class="btCurveRightFill"/>
-                     </svg>
-                  </div>
-                  <div class="btSiteHeaderCurveSleeve"></div>
-               </div>
-            </div>
-            <!-- /port -->
-         </header>
-         <!-- /.mainHeader -->
-         <div class="btContentWrap btClear">
-            <div class="btContentHolder">
-               <div class="btContent">
-                  <div class="bt_rc_container">
-                     
-                     <section 
-                     	id="bt_section6285c322d3037" 
-                     	data-parallax="0.1" 
-                     	data-parallax-offset="-200" 
-                     	class="boldSection btDarkSkin inherit btParallax wBackground cover" 
-                     	style="background-image:url('./img/movers_parallax.jpg');">
+        </div>
+    </div>
+</div>
+<!-- LOADING AREA  END ====== -->
 
-                        <div class="port">
-                           <div class="boldCell">
-                              <div class="boldCellInner">
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextLeft inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="slided autoSliderHeight" >
-                                             <div class="slidedItem firstItem"  data-thumb="">
-                                                <div class="btSliderPort wBackground cover" style="background-image: url('')">
-                                                   <div class="btSliderCell" data-slick="yes">
-                                                      <div class="btSlideGutter">
-                                                         <div class="btSlidePane">
-                                                            <div class="btClear btSeparator topSpaced noBorder" >
-                                                               <hr>
-                                                            </div>
-                                                            <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                                               <hr>
-                                                            </div>
-                                                            <header class="header btClear extralarge btDash bottomDash btNarrowHeader btAccentDash btRegularTitle" >
-                                                               <p class="btSuperTitle">Welcome to</p>
-                                                               <div class="dash">
-                                                                  <h1><span class="headline">Home Relocation Company</span></h1>
-                                                               </div>
-                                                               <p class="btSubTitle">Global turnkey logistics and transportation services via sea, land and air. We will protect you from risk and liability.</p>
-                                                            </header>
-                                                            <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                                               <hr>
-                                                            </div>
-                                                            <div class="btBtn btBtn btnFilled btnIconLeftPosition btnAccentColor btnSmall btnNormal" ><a href="#about-us">About us</a></div>
-                                                            <div class="btBtn btBtn btnFilled btnIconLeftPosition btnNormalColor btnSmall btnNormal" ><a href="#get-quote">Get a quote</a></div>
-                                                            <div class="btClear btSeparator topSpaced noBorder" >
-                                                               <hr>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="slidedItem firstItem"  data-thumb="">
-                                                <div class="btSliderPort wBackground cover" style="background-image: url('')">
-                                                   <div class="btSliderCell" data-slick="yes">
-                                                      <div class="btSlideGutter">
-                                                         <div class="btSlidePane">
-                                                            <div class="btClear btSeparator topSpaced noBorder" >
-                                                               <hr>
-                                                            </div>
-                                                            <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                                               <hr>
-                                                            </div>
-                                                            <header class="header btClear extralarge btDash bottomDash btNarrowHeader btAccentDash btRegularTitle" >
-                                                               <p class="btSuperTitle">Transport your goods</p>
-                                                               <div class="dash">
-                                                                  <h1><span class="headline">Locally and Around the World</span></h1>
-                                                               </div>
-                                                               <p class="btSubTitle">Molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto. Ut wisi enim.</p>
-                                                            </header>
-                                                            <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                                               <hr>
-                                                            </div>
-                                                            <div class="btBtn btBtn btnFilled btnIconLeftPosition btnAccentColor btnSmall btnNormal" ><a href="#about-us">About us</a></div>
-                                                            <div class="btBtn btBtn btnFilled btnIconLeftPosition btnNormalColor btnSmall btnNormal" ><a href="#get-quote">Get a quote</a></div>
-                                                            <div class="btClear btSeparator topSpaced noBorder" >
-                                                               <hr>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+	<div class="page-wraper">
+
+        <!-- HEADER START -->
+        <header class="site-header header-style-3 mobile-sider-drawer-menu">
+
+            <div class="sticky-header main-bar-wraper  navbar-expand-lg">
+                <div class="main-bar">
+
+                    <div class="container-fluid clearfix">
+
+                        <div class="logo-header">
+                            <div class="logo-header-inner logo-header-one">
+                                <a href="index.html">
+                                <img src="images/logo.png" alt="">
+                                </a>
+                            </div>
                         </div>
-                     </section>
-                     <section id="about-us"  class="boldSection topMoreSpaced bottomSpaced gutter inherit" >
-                        <div class="port">
-                           <div class="boldCell">
-                              <div class="boldCellInner">
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextRight animate animate-fadein btTextIndent inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">OUR CORE VALUES</p>
-                                             <div class="dash">
-                                                <h3><span class="headline">ABOUT US AND OUR SKILLS</span></h3>
-                                             </div>
-                                          </header>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="btText">
-                                             <blockquote>
-                                                <p>The core values are the guiding principles that dictate behavior and action. There are many different types of core values and many different examples of core values depending upon the context.</p>
-                                             </blockquote>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextCenter inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <div class="bpgPhoto btTextCenter visible-lg visible-md"  style="margin-top:-180px;">
-                                             <div class="btImage">
-                                             	<img src="./img/forklift.png" alt="">
-                                             </div>
-                                          </div>
-                                          <div class="bpgPhoto btTextCenter hidden-lg hidden-md" >
-                                             <div class="btImage">
-                                             	<img src="./img/forklift.png" alt="">
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextLeft"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btTextIndent inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator bottomSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="bpgPhoto btTextCenter" >
-                                             <div class="btImage"><img src="./img/movers_18-1080x540.jpg" alt="movers_18-1080x540.jpg"></div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear small  btAccentDash btAccentTitle" >
-                                             <p class="btSuperTitle">Around the world</p>
-                                             <div class="dash">
-                                                <h4><span class="headline">Home moving</span></h4>
-                                             </div>
-                                          </header>
-                                          <div class="btText">
-                                             <p>Duis hendrerit est nec eleifend euismod. Nulla tristique suscipit lacinia. Fusce vel vestibulum nulla, eget vehicula elit. In ut sodales ante. Duis nec.</p>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btTextIndent inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator bottomSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="bpgPhoto btTextCenter" >
-                                             <div class="btImage"><img src="./img/movers_14-1080x540.jpg" alt="movers_14-1080x540.jpg"></div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear small  btAccentDash btAccentTitle" >
-                                             <p class="btSuperTitle">Tackle challenging relocations</p>
-                                             <div class="dash">
-                                                <h4><span class="headline">Specialty moves</span></h4>
-                                             </div>
-                                          </header>
-                                          <div class="btText">
-                                             <p>Donec scelerisque velit vel tempor laoreet. Etiam rhoncus placerat ex id porttitor. Quisque interdum purus vel ligula mattis egestas</p>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btTextIndent inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator bottomSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="bpgPhoto btTextCenter" >
-                                             <div class="btImage"><img src="./img/movers_151-1080x540.jpg" alt="movers_151-1080x540.jpg"></div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear small  btAccentDash btAccentTitle" >
-                                             <p class="btSuperTitle">New service</p>
-                                             <div class="dash">
-                                                <h4><span class="headline">Office relocation</span></h4>
-                                             </div>
-                                          </header>
-                                          <div class="btText">
-                                             <p>Pellentesque convallis semper venenatis. Proin vitae quam nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextLeft"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+
+                        <!-- NAV Toggle Button -->
+                        <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar icon-bar-first"></span>
+                            <span class="icon-bar icon-bar-two"></span>
+                            <span class="icon-bar icon-bar-three"></span>
+                        </button>
+
+                        <!-- MAIN Vav -->
+                        <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
+
+                            <ul class=" nav navbar-nav">
+                                <li class="has-child">
+                                  <a href="#about">О нас</a>
+                                </li>
+                                <li class="has-child">
+                                  <a href="#train">Ж/Д</a>
+                                </li>
+                                <!-- <li class="has-child">
+                                  <a href="#customers">Клиенты</a>
+                                </li> -->
+
+                                <li class="has-child">
+                                  <a href="#service">Услуги</a>
+                                </li>
+                                <li>
+                                  <a href="#statistics">Статистика</a>
+                                </li>
+                            </ul>
+
                         </div>
-                     </section>
-                     <section id="bt_section6285c322d7ca6" data-parallax="-0.1" data-parallax-offset="0" class="boldSection topMoreSpaced bottomSpaced btDarkSkin gutter inherit btParallax wBackground cover" style="background-image:url('./img/Transparent-background-with-dots.png');">
-                        <div class="port">
-                           <div class="boldCell">
-                              <div class="boldCellInner">
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextRight animate animate-fadein inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">OUR CLIENTS</p>
-                                             <div class="dash">
-                                                <h3><span class="headline">CLIENTS THAT TRUST OUR SERVICES</span></h3>
-                                             </div>
-                                          </header>
-                                          <div class="btText">
-                                             <blockquote>
-                                                <p>The core values are the guiding principles that dictate behavior and action. There are many different types of core values and many different examples of core values depending upon the context.</p>
-                                             </blockquote>
-                                          </div>
-                                       </div>
+
+                        <!-- Header Right Section-->
+                        <div class="extra-nav header-2-nav">
+
+                            <div class="extra-cell">
+                                <div class="header-nav-call-section">
+
+
+                                    <div class="detail">
+                                        <span class="title">Номер для звонка</span>
+                                        <span><a href="tel:+998770000208">+998 77 000 02 08</a></span>
                                     </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btHighlight inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btText">
-                                             <blockquote>
-                                                <p>I owe my success to having listened respectfully to the very best advice, and then going away and doing the exact opposite.</p>
-                                             </blockquote>
-                                          </div>
-                                          <div class="bpgPhoto btTextCenter"  style="float: right;">
-                                             <div class="btImage"><img src="./img/sign_1.png" alt=""></div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear small btTextRight btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">JOHN SMITH</p>
-                                             <p class="btSubTitle">CTO of KLM</p>
-                                          </header>
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
+                                    <div class="media">
+                                        <img src="images/call.png" alt="#">
                                     </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btHighlight inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btText">
-                                             <blockquote>
-                                                <p>Successful people do what unsuccessful people are not willing to do. Don&#8217;t wish it were easier; wish you were better.</p>
-                                             </blockquote>
-                                          </div>
-                                          <div class="bpgPhoto btTextCenter"  style="float: right;">
-                                             <div class="btImage"><img src="./img/sign_2.png" alt=""></div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear small btTextRight btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">PATRICK HEAD</p>
-                                             <p class="btSubTitle">ReConstruction LLC</p>
-                                          </header>
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextRight animate animate-fadein animate-moveright inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextLeft animate animate-fadein inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="boldClientRegularList">
-                                             <div class="">
-                                                <div class="bclItem">
-                                                   <div class = "bclItemChild">
-                                                      <img src="./img/aspect-square.png" alt="Aspect image">
-                                                      <div style="background-image:url(./img/client-logo-7-320x320.png);"><a href="#"></a></div>
-                                                   </div>
-                                                </div>
-                                                <div class="bclItem">
-                                                   <div class="bclItemChild">
-                                                      <img src="./img/aspect-square.png" alt="Aspect image">
-                                                      <div style="background-image:url(./img/client-logo-3-320x320.png);"><a href="#"></a></div>
-                                                   </div>
-                                                </div>
-                                                <div class="bclItem">
-                                                   <div class="bclItemChild">
-                                                      <img src="./img/aspect-square.png" alt="Aspect image">
-                                                      <div style="background-image:url(./img/client-logo-2-320x320.png);"><a href="#"></a></div>
-                                                   </div>
-                                                </div>
-                                                <div class="bclItem">
-                                                   <div class="bclItemChild">
-                                                      <img src="./img/aspect-square.png" alt="Aspect image">
-                                                      <div style="background-image:url(./img/client-logo-1-320x320.png);"><a href="#"></a></div>
-                                                   </div>
-                                                </div>
-                                                <div class="bclItem">
-                                                   <div class="bclItemChild">
-                                                      <img src="./img/aspect-square.png" alt="Aspect image">
-                                                      <div style="background-image:url(./img/client-logo-7-320x320.png);"><a href="#"></a></div>
-                                                   </div>
-                                                </div>
-                                                <div class="bclItem">
-                                                   <div class="bclItemChild">
-                                                      <img src="./img/aspect-square.png" alt="Aspect image">
-                                                      <div style="background-image:url(./img/client-logo-3-320x320.png);"><a href="#"></a></div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </section>
-                     <section id="services" data-parallax="0.1" data-parallax-offset="0" class="boldSection topMoreSpaced bottomSpaced gutter inherit btParallax wBackground cover" style="background-image:url('./img/Transparent-background-with-dots.png');">
-                        <div class="port">
-                           <div class="boldCell">
-                              <div class="boldCellInner">
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextRight animate animate-fadein inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">OUR SERVICES</p>
-                                             <div class="dash">
-                                                <h3><span class="headline">WHAT WE CAN DO FOR YOU</span></h3>
-                                             </div>
-                                          </header>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btHighlight inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="bpgPhoto btTextCenter" >
-                                             <a href="#" target="_self"></a>
-                                             <div class="boldPhotoBox">
-                                                <div class="bpbItem">
-                                                   <div class="btImage"><img src="./img/movers_08-1080x540.jpg" alt="movers_08-1080x540.jpg"></div>
-                                                </div>
-                                             </div>
-                                             <div class="captionPane">
-                                                <div class="captionTable">
-                                                   <div class="captionCell">
-                                                      <div class="captionTxt">
-                                                         <header class="header btClear small btDash bottomDash" ></header>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator bottomSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="servicesItem  largeIcon borderlessIconType ">
-                                             <div class="sIcon">
-                                                <div class="btIco large borderless"><a href="#"  data-ico-cs="&#xe606;" class="btIcoHolder"></a></div>
-                                             </div>
-                                             <div class="sTxt">
-                                                <header class="header btClear extrasmall" >
-                                                   <div class="dash">
-                                                      <h4><span class="headline">Worldwide</span></h4>
-                                                   </div>
-                                                </header>
-                                                <p>Donec scelerisque velit vel tempor laoreet. Etiam rhoncus placerat ex id porttitor. Quisque interdum purus vel ligula mattis egestas<br></p>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btHighlight inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="bpgPhoto btTextCenter" >
-                                             <a href="#" target="_self"></a>
-                                             <div class="boldPhotoBox">
-                                                <div class="bpbItem">
-                                                   <div class="btImage"><img src="./img/movers_12-1080x540.jpg" alt="movers_12-1080x540.jpg"></div>
-                                                </div>
-                                             </div>
-                                             <div class="captionPane">
-                                                <div class="captionTable">
-                                                   <div class="captionCell">
-                                                      <div class="captionTxt">
-                                                         <header class="header btClear small btDash bottomDash" ></header>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator bottomSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="servicesItem  largeIcon borderlessIconType ">
-                                             <div class="sIcon">
-                                                <div class="btIco large borderless"><a href="#"  data-ico-cs="&#xe60e;" class="btIcoHolder"></a></div>
-                                             </div>
-                                             <div class="sTxt">
-                                                <header class="header btClear extrasmall" >
-                                                   <div class="dash">
-                                                      <h4><span class="headline">Tracking service</span></h4>
-                                                   </div>
-                                                </header>
-                                                <p>Duis hendrerit est nec eleifend euismod. Nulla tristique suscipit lacinia. Fusce vel vestibulum nulla, eget vehicula elit. <br></p>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextRight animate animate-fadein animate-moveright inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btHighlight inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="bpgPhoto btTextCenter" >
-                                             <a href="#" target="_self"></a>
-                                             <div class="boldPhotoBox">
-                                                <div class="bpbItem">
-                                                   <div class="btImage"><img src="./img/movers_191-1080x540.jpg" alt="movers_191-1080x540.jpg"></div>
-                                                </div>
-                                             </div>
-                                             <div class="captionPane">
-                                                <div class="captionTable">
-                                                   <div class="captionCell">
-                                                      <div class="captionTxt">
-                                                         <header class="header btClear small btDash bottomDash" ></header>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator bottomSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="servicesItem  largeIcon borderlessIconType ">
-                                             <div class="sIcon">
-                                                <div class="btIco large borderless"><a href="#"  data-ico-cs="&#xe609;" class="btIcoHolder"></a></div>
-                                             </div>
-                                             <div class="sTxt">
-                                                <header class="header btClear extrasmall" >
-                                                   <div class="dash">
-                                                      <h4><span class="headline">Fast and reliable</span></h4>
-                                                   </div>
-                                                </header>
-                                                <p>Donec scelerisque velit vel tempor laoreet. Etiam rhoncus placerat ex id porttitor. Quisque interdum purus vel ligula mattis egestas<br></p>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btHighlight inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="bpgPhoto btTextCenter" >
-                                             <a href="#" target="_self"></a>
-                                             <div class="boldPhotoBox">
-                                                <div class="bpbItem">
-                                                   <div class="btImage"><img src="./img/movers_17-1080x540.jpg" alt="movers_17-1080x540.jpg"></div>
-                                                </div>
-                                             </div>
-                                             <div class="captionPane">
-                                                <div class="captionTable">
-                                                   <div class="captionCell">
-                                                      <div class="captionTxt">
-                                                         <header class="header btClear small btDash bottomDash" ></header>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator bottomSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="servicesItem  largeIcon borderlessIconType ">
-                                             <div class="sIcon">
-                                                <div class="btIco large borderless"><a href="#"  data-ico-cs="&#xe647;" class="btIcoHolder"></a></div>
-                                             </div>
-                                             <div class="sTxt">
-                                                <header class="header btClear extrasmall" >
-                                                   <div class="dash">
-                                                      <h4><span class="headline">Storage</span></h4>
-                                                   </div>
-                                                </header>
-                                                <p>Donec scelerisque velit vel tempor laoreet. Etiam rhoncus placerat ex id porttitor. Quisque interdum purus vel ligula mattis egestas<br></p>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextLeft animate animate-fadein btHighlight inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="bpgPhoto btTextCenter" >
-                                             <a href="#" target="_self"></a>
-                                             <div class="boldPhotoBox">
-                                                <div class="bpbItem">
-                                                   <div class="btImage"><img src="./img/movers_06-1080x540.jpg" alt="movers_06-1080x540.jpg"></div>
-                                                </div>
-                                             </div>
-                                             <div class="captionPane">
-                                                <div class="captionTable">
-                                                   <div class="captionCell">
-                                                      <div class="captionTxt">
-                                                         <header class="header btClear small btDash bottomDash" ></header>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator bottomSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="servicesItem  largeIcon borderlessIconType ">
-                                             <div class="sIcon">
-                                                <div class="btIco large borderless"><a href="#"  data-ico-cs="&#xe600;" class="btIcoHolder"></a></div>
-                                             </div>
-                                             <div class="sTxt">
-                                                <header class="header btClear extrasmall" >
-                                                   <div class="dash">
-                                                      <h4><span class="headline">24 hours support</span></h4>
-                                                   </div>
-                                                </header>
-                                                <p>Duis hendrerit est nec eleifend euismod. Nulla tristique suscipit lacinia. Fusce vel vestibulum nulla, eget vehicula elit. <br></p>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextRight animate animate-fadein animate-moveright inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </section>
-                     <section id="bt_section6285c322dcabc" data-parallax="0" data-parallax-offset="0" class="boldSection topMoreSpaced bottomSpaced btDarkSkin gutter inherit btParallax wBackground cover" style="background-image:url('./img/Transparent-background-with-dots.png');">
-                        <div class="port">
-                           <div class="boldCell">
-                              <div class="boldCellInner">
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextRight animate animate-fadein inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">WE ARE THE BEST</p>
-                                             <div class="dash">
-                                                <h3><span class="headline">CARGO IN NUMBERS</span></h3>
-                                             </div>
-                                          </header>
-                                          <div class="btClear btSeparator bottomSmallSpaced noBorder"  style="padding-top: 13px;">
-                                             <hr>
-                                          </div>
-                                          <div class="btText">
-                                             <blockquote>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
-                                             </blockquote>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-md-8 col-ms-12  btTextLeft animate animate-fadein inherit"  >
-                                       <div class="rowItemContent">
-                                          <header class="header btClear small  btAccentDash btRegularTitle" style="margin-bottom: 0;">
-                                             <p class="btSuperTitle">MARKET SHARE IN CE REGION</p>
-                                          </header>
-                                          <div class="btProgressBar animate">
-                                             <div class="btProgressContent">
-                                                <div data-percentage="75" class="btProgressAnim animate"><span>75%</span></div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear small  btAccentDash btRegularTitle" style="margin-bottom: 0;">
-                                             <p class="btSuperTitle">REVENUE GROWTH PER YEAR</p>
-                                          </header>
-                                          <div class="btProgressBar animate">
-                                             <div class="btProgressContent">
-                                                <div data-percentage="61" class="btProgressAnim animate"><span>61%</span></div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear small  btAccentDash btRegularTitle" style="margin-bottom: 0;">
-                                             <p class="btSuperTitle">PROFIT GROWTH PER YEAR</p>
-                                          </header>
-                                          <div class="btProgressBar animate">
-                                             <div class="btProgressContent">
-                                                <div data-percentage="54" class="btProgressAnim animate"><span>54%</span></div>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator bottomExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear small  btAccentDash btRegularTitle" style="margin-bottom: 0;">
-                                             <p class="btSuperTitle">INCREASE IN NUMBER OF LOGISTICS CENTERS</p>
-                                          </header>
-                                          <div class="btProgressBar animate">
-                                             <div class="btProgressContent">
-                                                <div data-percentage="100" class="btProgressAnim animate"><span>100%</span></div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextCenter inherit"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextCenter inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <div class="btCounterHolder"><span class="btCounter animate" data-digit-length="7"><span class="onedigit p7 d4" data-digit="4"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span></span><span class="onedigit p6 d7" data-digit="7"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span><span class="n7">7</span></span><span class="onedigit p5 d3" data-digit="3"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span></span><span class="onedigit p4 d," data-digit=","><span>,</span></span><span class="onedigit p3 d7" data-digit="7"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span><span class="n7">7</span></span><span class="onedigit p2 d9" data-digit="9"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span><span class="n7">7</span><span class="n8">8</span><span class="n9">9</span></span><span class="onedigit p1 d3" data-digit="3"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span></span></span></div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">KM PER YEAR</p>
-                                          </header>
-                                          <div class="btText">
-                                             <p>Pellentesque sollicitudin molestie libero at commodo. Nunc cursus ligula magna, ut imperdiet turpis pellentesque sit amet.</p>
-                                          </div>
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem btLeftBorder col-sm-4 col-ms-12 btTextCenter inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <div class="btCounterHolder"><span class="btCounter animate" data-digit-length="5"><span class="onedigit p5 d3" data-digit="3"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span></span><span class="onedigit p4 d," data-digit=","><span>,</span></span><span class="onedigit p3 d2" data-digit="2"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span></span><span class="onedigit p2 d7" data-digit="7"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span><span class="n7">7</span></span><span class="onedigit p1 d9" data-digit="9"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span><span class="n6">6</span><span class="n7">7</span><span class="n8">8</span><span class="n9">9</span></span></span></div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">TONS OF GOODS</p>
-                                          </header>
-                                          <div class="btText">
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante arcu, lacinia dictum ullamcorper vitae, tempor nec quam</p>
-                                          </div>
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem btLeftBorder col-sm-4 col-ms-12 btTextCenter inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <div class="btCounterHolder"><span class="btCounter animate" data-digit-length="3"><span class="onedigit p3 d5" data-digit="5"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span><span class="n4">4</span><span class="n5">5</span></span><span class="onedigit p2 d1" data-digit="1"><span class="n0">0</span><span class="n1">1</span></span><span class="onedigit p1 d3" data-digit="3"><span class="n0">0</span><span class="n1">1</span><span class="n2">2</span><span class="n3">3</span></span></span></div>
-                                          <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">SATISFIED CLIENTS</p>
-                                          </header>
-                                          <div class="btText">
-                                             <p>Quisque tincidunt, nisi in venenatis commodo, neque quam pharetra dolor, nec lacinia urna quam. Praesent eu rhoncus nibh.</p>
-                                          </div>
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextCenter inherit btDoublePadding"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topSemiSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </section>
-                     <section id="get-quote" data-parallax="0.1" data-parallax-offset="0" class="boldSection topMoreSpaced bottomMoreSpaced gutter inherit btParallax" >
-                        <div class="port">
-                           <div class="boldCell">
-                              <div class="boldCellInner">
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-sm-4 col-ms-12 btTextRight animate animate-fadein inherit btDoublePadding btDarkAccentDash"  >
-                                       <div class="rowItemContent">
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">WHAT WE DO</p>
-                                             <div class="dash">
-                                                <h3><span class="headline">CUSTUMISABLE COST CALCULATOR</span></h3>
-                                             </div>
-                                          </header>
-                                          <div class="bpgPhoto btTextCenter visible-lg"  style="position: absolute; transform: translateY(250px);">
-                                             <div class="btImage"><img src="./img/truck_green.png" alt=""></div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-md-8 col-ms-12  btTextLeft animate animate-fadein btHighlight inherit btDoublePadding btDarkAccentDash"  >
-                                       <div class="rowItemContent">
-                                          <div class="btQuoteBooking  btQuoteBookingWithoutColor c6285c322de17e"  data-admin_email="info@bold-themes.com" data-cf7_id="" data-email_client="yes" data-email_gdpr="" data-email_gdpr_text="" data-email_gdpr_not_text="" data-currency="$" data-currency_after="" data-currency_space="yes" data-url_confirmation="" data-url_ajax="http://cargo.bold-themes.com/home-movers/wp-admin/admin-ajax.php" data-subject="Air Cargo calculator" data-email_header="" data-email_footer="" data-date_text="Preferred Service Date" data-time_text="Preferred Service Time" data-message_please_wait="Please wait..." data-message_success="Thank you, we will contact you soon!" data-message_error="Error! Please try again later." data-message_mandatory="Please fill out all required fields." data-rec_secret_key="" data-total_text="Total" data-total_format="currency_1" data-total_decimals="2" data-date_format="mm/dd/yy" data-bt_cc_nonce="2bdf67278a" data-hide_total="">
-                                             <div class="btQuoteBookingWrap">
-                                                <div class="btQuoteBookingForm btActive">
-                                                   <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                                      <hr>
-                                                   </div>
-                                                   <header class="header btClear small  btAccentDash btRegularTitle" >
-                                                      <div class="dash">
-                                                         <h4><span class="headline">GET A QUICK QUOTE</span></h4>
-                                                      </div>
-                                                      <p class="btSubTitle">* for detailed quote use extended version</p>
-                                                   </header>
-                                                   <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                                      <hr>
-                                                   </div>
-                                                   <div class="btQuoteGBlock " data-eval="cont=$1;
-                                                      dist=$2;
-                                                      type=$3;
-                                                      ins=$4;
-                                                      fin=cont*dist*type*ins/2;
-                                                      return fin;" data-paypal_label="" id="btQuoteItem6285c322de31a" >
-                                                      <div class="btQuoteItem " id="btQuoteItem6285c322de387" >
-                                                         <label>TRUCKLOAD</label>
-                                                         <div class="btQuoteItemInput">
-                                                            <div id="6285c322de39dW168" class="btQuoteSelect btContactField btDropDown btQuoteElement" data-condition="" data-initial-value=""></div>
-                                                         </div>
-                                                      </div>
-                                                      <div class="btQuoteItem " id="btQuoteItem6285c322de3cd" >
-                                                         <label>COMMODITY</label>
-                                                         <div class="btQuoteItemInput">
-                                                            <div id="6285c322de3d7W757" class="btQuoteSelect btContactField btDropDown btQuoteElement" data-condition="" data-initial-value=""></div>
-                                                         </div>
-                                                      </div>
-                                                      <div class="btQuoteItem " id="btQuoteItem6285c322de3ea" >
-                                                         <label>DIST (MILES)</label>
-                                                         <div class="btQuoteItemInput">
-                                                            <div class="btQuoteSlider btQuoteElement" data-value="0"  data-initial-value="0" data-min="0" data-max="5000" data-step="200" data-price="1" data-offset="0" data-condition=""></div>
-                                                            <span class="btQuoteSliderValue">0</span>
-                                                         </div>
-                                                      </div>
-                                                      <div class="btQuoteItem " id="btQuoteItem6285c322de3fd" >
-                                                         <label>REFRIGERATED</label>
-                                                         <div class="btQuoteItemInput">
-                                                            <div class="btQuoteSwitch btQuoteElement" data-off="1" data-on="1.3" data-condition="" data-initial-value="">
-                                                               <div class="btQuoteSwitchInner"></div>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                   <div class="btClear btSeparator topSmallSpaced noBorder" >
-                                                      <hr>
-                                                   </div>
-                                                   <div class="btTotalNextWrapper">
-                                                      <div class="btQuoteTotal"><span class="btQuoteTotalText">Total</span><span class="btQuoteTotalCurrency">$&nbsp;</span><span class="btQuoteTotalCalc"></span></div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </section>
-                     <section id="contact" data-parallax="0.1" data-parallax-offset="0" class="boldSection topSemiSpaced bottomSmallSpaced btDarkSkin gutter inherit btParallax" style="background-color:#ef700e;">
-                        <div class="port">
-                           <div class="boldCell">
-                              <div class="boldCellInner">
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 btTextRight animate animate-fadein btMiddleVertical btDoublePadding" style="z-index: 10;" >
-                                       <div class="rowItemContent">
-                                          <header class="header btClear medium  btAccentDash btRegularTitle" >
-                                             <p class="btSuperTitle">WE&#8217;LL BE GLAD TO HELP</p>
-                                             <div class="dash">
-                                                <h3><span class="headline">CONTACT US</span></h3>
-                                             </div>
-                                          </header>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem col-md-3 col-sm-6 col-ms-12 btTextLeft animate animate-fadein btMiddleVertical"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="servicesItem  mediumIcon colorless borderlessIconType ">
-                                             <div class="sIcon">
-                                                <div class="btIco medium colorless borderless"><a href="#"  data-ico-cs="&#xe60f;" class="btIcoHolder"></a></div>
-                                             </div>
-                                             <div class="sTxt">
-                                                <header class="header btClear extrasmall" >
-                                                   <div class="dash">
-                                                      <h4><span class="headline">CALL CENTER</span></h4>
-                                                   </div>
-                                                </header>
-                                                <p>Give us a free call
-                                                   <br>+1 555-676-1020<br>
-                                                </p>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem btLeftBorder col-md-3 col-sm-6 col-ms-12 btTextLeft animate animate-fadein btMiddleVertical"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="servicesItem  mediumIcon colorless borderlessIconType ">
-                                             <div class="sIcon">
-                                                <div class="btIco medium colorless borderless"><a href="#"  data-ico-cs="&#xe610;" class="btIcoHolder"></a></div>
-                                             </div>
-                                             <div class="sTxt">
-                                                <header class="header btClear extrasmall" >
-                                                   <div class="dash">
-                                                      <h4><span class="headline">WORKING HOURS</span></h4>
-                                                   </div>
-                                                </header>
-                                                <p>Mon-Sat 7AM-5PM
-                                                   <br>Sat 9AM-3PM<br>
-                                                </p>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="rowItem btLeftBorder col-md-3 col-sm-6 col-ms-12 btTextLeft animate animate-fadein btMiddleVertical"  >
-                                       <div class="rowItemContent">
-                                          <div class="btClear btSeparator topExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                          <div class="servicesItem  mediumIcon colorless borderlessIconType ">
-                                             <div class="sIcon">
-                                                <div class="btIco medium colorless borderless"><span  data-ico-cs="&#xe663;" class="btIcoHolder"></span></div>
-                                             </div>
-                                             <div class="sTxt">
-                                                <header class="header btClear extrasmall" >
-                                                   <div class="dash">
-                                                      <h4><span class="headline">OUR LOCATION</span></h4>
-                                                   </div>
-                                                </header>
-                                                <p>300 Kansas Ave NW
-                                                   <br>New Jersey<br>
-                                                </p>
-                                             </div>
-                                          </div>
-                                          <div class="btClear btSeparator topExtraSmallSpaced noBorder" >
-                                             <hr>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </section>
-                     <section id="bt_section6285c322dead3" data-parallax="0.1" data-parallax-offset="0" class="boldSection btDarkSkin inherit btParallax wBackground cover" style="background-color:#0b60a9;background-image:url('./img/Transparent-background-with-dots.png');">
-                        <div class="port">
-                           <div class="boldCell">
-                              <div class="boldCellInner">
-                                 <div class="boldRow " >
-                                    <div class="rowItem col-md-12 col-ms-12  btTextCenter inherit btNoPadding"  >
-                                       <div class="rowItemContent">
-                                          <div class="btGoogleMapsWrapper">
-                                             <div id="map_canvas6285c322df064" style="height:520px;;" class="btGoogleMap"></div>
-                                          </div>
-                                          <script type="text/javascript">
-                                             jQuery( document ).ready(function() {
-                                             	bt_gmap_init( map_canvas6285c322df064, 40.7144678, -74.015827, 11, "./img/pin.png", "#1e73be", "#4d6b7c", "#f1f1f1", "W3siZmVhdHVyZVR5cGUiOiJhZG1pbmlzdHJhdGl2ZSIsImVsZW1lbnRUeXBlIjoibGFiZWxzLnRleHQuZmlsbCIsInN0eWxlcnMiOlt7ImNvbG9yIjoiIzQ0NDQ0NCJ9XX0seyJmZWF0dXJlVHlwZSI6ImxhbmRzY2FwZSIsImVsZW1lbnRUeXBlIjoiYWxsIiwic3R5bGVycyI6W3siY29sb3IiOiIjZjJmMmYyIn1dfSx7ImZlYXR1cmVUeXBlIjoibGFuZHNjYXBlLm5hdHVyYWwiLCJlbGVtZW50VHlwZSI6ImFsbCIsInN0eWxlcnMiOlt7InZpc2liaWxpdHkiOiJvbiJ9LHsiY29sb3IiOiIjZTZlNmU2In1dfSx7ImZlYXR1cmVUeXBlIjoicG9pIiwiZWxlbWVudFR5cGUiOiJhbGwiLCJzdHlsZXJzIjpbeyJ2aXNpYmlsaXR5Ijoib2ZmIn1dfSx7ImZlYXR1cmVUeXBlIjoicm9hZCIsImVsZW1lbnRUeXBlIjoiYWxsIiwic3R5bGVycyI6W3sic2F0dXJhdGlvbiI6LTEwMH0seyJsaWdodG5lc3MiOjQ1fV19LHsiZmVhdHVyZVR5cGUiOiJyb2FkIiwiZWxlbWVudFR5cGUiOiJnZW9tZXRyeS5maWxsIiwic3R5bGVycyI6W3sidmlzaWJpbGl0eSI6Im9uIn0seyJodWUiOiIjZmYwMDAwIn1dfSx7ImZlYXR1cmVUeXBlIjoicm9hZC5oaWdod2F5IiwiZWxlbWVudFR5cGUiOiJhbGwiLCJzdHlsZXJzIjpbeyJ2aXNpYmlsaXR5Ijoic2ltcGxpZmllZCJ9XX0seyJmZWF0dXJlVHlwZSI6InJvYWQuaGlnaHdheSIsImVsZW1lbnRUeXBlIjoiZ2VvbWV0cnkuZmlsbCIsInN0eWxlcnMiOlt7ImNvbG9yIjoiI2ZkOTgzNiJ9LHsic2F0dXJhdGlvbiI6Ijg1In0seyJsaWdodG5lc3MiOiIzMSJ9LHsiZ2FtbWEiOiIxLjI0In1dfSx7ImZlYXR1cmVUeXBlIjoicm9hZC5oaWdod2F5IiwiZWxlbWVudFR5cGUiOiJsYWJlbHMudGV4dCIsInN0eWxlcnMiOlt7InZpc2liaWxpdHkiOiJzaW1wbGlmaWVkIn1dfSx7ImZlYXR1cmVUeXBlIjoicm9hZC5hcnRlcmlhbCIsImVsZW1lbnRUeXBlIjoiZ2VvbWV0cnkuZmlsbCIsInN0eWxlcnMiOlt7Imh1ZSI6IiNmZjAwMDAifSx7InNhdHVyYXRpb24iOiIxIn1dfSx7ImZlYXR1cmVUeXBlIjoicm9hZC5hcnRlcmlhbCIsImVsZW1lbnRUeXBlIjoibGFiZWxzLmljb24iLCJzdHlsZXJzIjpbeyJ2aXNpYmlsaXR5Ijoib2ZmIn1dfSx7ImZlYXR1cmVUeXBlIjoidHJhbnNpdCIsImVsZW1lbnRUeXBlIjoiYWxsIiwic3R5bGVycyI6W3sidmlzaWJpbGl0eSI6Im9mZiJ9XX0seyJmZWF0dXJlVHlwZSI6InRyYW5zaXQuc3RhdGlvbiIsImVsZW1lbnRUeXBlIjoiYWxsIiwic3R5bGVycyI6W3sidmlzaWJpbGl0eSI6InNpbXBsaWZpZWQifSx7Imh1ZSI6IiNmZjAwMDAifSx7InNhdHVyYXRpb24iOiItMTAwIn1dfSx7ImZlYXR1cmVUeXBlIjoidHJhbnNpdC5zdGF0aW9uLmFpcnBvcnQiLCJlbGVtZW50VHlwZSI6ImFsbCIsInN0eWxlcnMiOlt7InZpc2liaWxpdHkiOiJvbiJ9XX0seyJmZWF0dXJlVHlwZSI6InRyYW5zaXQuc3RhdGlvbi5idXMiLCJlbGVtZW50VHlwZSI6ImFsbCIsInN0eWxlcnMiOlt7InZpc2liaWxpdHkiOiJzaW1wbGlmaWVkIn1dfSx7ImZlYXR1cmVUeXBlIjoidHJhbnNpdC5zdGF0aW9uLnJhaWwiLCJlbGVtZW50VHlwZSI6ImFsbCIsInN0eWxlcnMiOlt7InZpc2liaWxpdHkiOiJzaW1wbGlmaWVkIn0seyJodWUiOiIjZmY3ZTAwIn0seyJzYXR1cmF0aW9uIjoiLTEwMCJ9LHsibGlnaHRuZXNzIjoiMTkifV19LHsiZmVhdHVyZVR5cGUiOiJ3YXRlciIsImVsZW1lbnRUeXBlIjoiYWxsIiwic3R5bGVycyI6W3siY29sb3IiOiIjZDdkN2Q3In0seyJ2aXNpYmlsaXR5Ijoib24ifV19XQ==" );
-                                             	});	
-                                          </script>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </section>
-                  </div>
-               </div>
-               <!-- /bt_content -->
+                                </div>
+                            </div>
+
+                            </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+
             </div>
-            <!-- /contentHolder -->
-         </div>
-         <!-- /contentWrap -->
-      </div>
-      <!-- /pageWrap -->
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/comment-reply.min.js?ver=5.9.3' id='comment-reply-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
-      <script type='text/javascript' id='contact-form-7-js-extra'>
-         /* <![CDATA[ */
-         var wpcf7 = {"api":{"root":"http:\/\/cargo.bold-themes.com\/home-movers\/wp-json\/","namespace":"contact-form-7\/v1"}};
-         /* ]]> */
-      </script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.6' id='contact-form-7-js'></script>
-      <script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfmEKAaAAAAAJGwYMNSdux-yATrkwZcw6GT6N41&#038;ver=3.0' id='google-recaptcha-js'></script>
-      <script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
-         /* <![CDATA[ */
-         var wpcf7_recaptcha = {"sitekey":"6LfmEKAaAAAAAJGwYMNSdux-yATrkwZcw6GT6N41","actions":{"homepage":"homepage","contactform":"contactform"}};
-         /* ]]> */
-      </script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.5.6' id='wpcf7-recaptcha-js'></script>
-      <script type='text/javascript' id='cargo-set-global-uri-script-js-after'>
-         window.BTURI = "http://cargo.bold-themes.com/home-movers/wp-content/themes/cargo"; window.BTAJAXURL = "http://cargo.bold-themes.com/home-movers/wp-admin/admin-ajax.php"; window.bt_text = []; window.bt_text.previous = 'previous'; window.bt_text.next = 'next';
-      </script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/plugins/cargo/bt_parallax.js?ver=5.9.3' id='bt_parallax-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.1' id='jquery-ui-datepicker-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1' id='jquery-ui-mouse-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.1' id='jquery-ui-slider-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/plugins/bt_cost_calculator/jquery.ui.touch-punch.min.js?ver=5.9.3' id='bt_touch-punch_js-js'></script>
-      <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBda9LxQ-Wztqsk6aFI7SkcdiypnKTPfiI&#038;ver=5.9.3' id='gmaps_api-js'></script>
-      <script type='text/javascript' src='http://cargo.bold-themes.com/home-movers/wp-content/plugins/cargo/bt_gmap.js?ver=5.9.3' id='bt_gmap_init-js'></script>
-      <script>
-         var bt_cc_accent_c6285c322de17e_init_finished = false;
-         
-         document.addEventListener('readystatechange', function() {
-         	if ( ! bt_cc_accent_c6285c322de17e_init_finished && typeof(jQuery) !== 'undefined' && ( document.readyState === 'interactive' || document.readyState === 'complete' ) ) {
-         		var css_class = 'c6285c322de17e';
-         		var c = jQuery( '.' + css_class );
-         		setTimeout( function(){ c.css( 'opacity', '1' ); }, 200 );
-         		var accent_color = '';
-         		
-         		if ( accent_color != '' ) {
-         			jQuery( 'head' ).append( '<style>.btQuoteBooking.' + css_class + ' .btContactNext { color: ' + accent_color + ' !important; border: ' + accent_color + ' 2px solid !important; }.btQuoteBooking.' + css_class + '  input[type="text"]:hover, .btQuoteBooking.' + css_class + '  input[type="email"]:hover, .btQuoteBooking.' + css_class + '  input[type="password"]:hover, .btQuoteBooking.' + css_class + '  input[type="url"]:hover, .btQuoteBooking.' + css_class + '  input[type="tel"]:hover, .btQuoteBooking.' + css_class + '  input[type="number"]:hover, .btQuoteBooking.' + css_class + '  input[type="date"]:hover, .btQuoteBooking.' + css_class + '  textarea:hover, .btQuoteBooking.' + css_class + '  .fancy-select .trigger:hover {	box-shadow: 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .dd.ddcommon.borderRadius:hover .ddTitleText {	box-shadow: 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  input[type="text"]:focus, .btQuoteBooking.' + css_class + '  input[type="email"]:focus, .btQuoteBooking.' + css_class + '  input[type="url"]:focus, .btQuoteBooking.' + css_class + '  input[type="tel"]:focus, .btQuoteBooking.' + css_class + '  input[type="number"]:focus, .btQuoteBooking.' + css_class + '  input[type="date"]:focus, .btQuoteBooking.' + css_class + '  textarea:focus, .btQuoteBooking.' + css_class + '  .fancy-select .trigger.open {	box-shadow: 5px 0 0 ' + accent_color + ' inset, 0 2px 10px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .dd.ddcommon.borderRadiusTp .ddTitleText, .btQuoteBooking.' + css_class + ' .dd.ddcommon.borderRadiusBtm .ddTitleText {	box-shadow: 5px 0 0 ' + accent_color + ' inset, 0 2px 10px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  .ui-slider .ui-slider-handle {	background: ' + accent_color + ' !important;}.btQuoteBooking.' + css_class + ' .btQuoteBookingForm .btQuoteTotal {	background: ' + accent_color + ' !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory input:hover, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory textarea:hover {	box-shadow: 0 0 0 1px #AAA inset, 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory .dd.ddcommon.borderRadius:hover .ddTitleText {	box-shadow: 0 0 0 1px #AAA inset, 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory input:focus, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory textarea:focus {	box-shadow: 0 0 0 1px #AAA inset, 5px 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory .dd.ddcommon.borderRadiusTp .ddTitleText {	box-shadow: 0 0 0 1px #AAA inset, 5px 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError input, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError textarea {	border: 1px solid ' + accent_color + ' !important;	box-shadow: 0 0 0 1px ' + accent_color + ' inset !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius .ddTitleText {	border: 1px solid ' + accent_color + ' !important;	box-shadow: 0 0 0 1px ' + accent_color + ' inset !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError input:hover, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError textarea:hover {	box-shadow: 0 0 0 1px ' + accent_color + ' inset, 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius:hover .ddTitleText {	box-shadow: 0 0 0 1px ' + accent_color + ' inset, 0 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError input:focus, .btQuoteBooking.' + css_class + '  .btContactFieldMandatory.btContactFieldError textarea:focus {	box-shadow: 0 0 0 1px ' + accent_color + ' inset, 5px 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadiusTp .ddTitleText {	box-shadow: 0 0 0 1px ' + accent_color + ' inset, 5px 0 0 ' + accent_color + ' inset, 0 1px 5px rgba(0,0,0,0.2) !important;}.btQuoteBooking.' + css_class + ' .btSubmitMessage {	color: ' + accent_color + ' !important;}.btDatePicker .ui-datepicker-header {	background-color: ' + accent_color + ' !important;}.btQuoteBooking.' + css_class + ' .btContactSubmit {	background-color: ' + accent_color + ' !important;}.btQuoteBooking.' + css_class + ' .btQuoteSwitch.on .btQuoteSwitchInner{background: ' + accent_color + ' !important;}</style>' );
-         		}
-         		bt_cc_accent_c6285c322de17e_init_finished = true;
-         	}
-         }, false);
-         
-      </script>
-      <script>
-         var bt_cc_6285c322de39dW168_init_finished = false;
-         
-         document.addEventListener('readystatechange', function() { 
-         	if ( ! bt_cc_6285c322de39dW168_init_finished && typeof(jQuery) !== 'undefined' && ( document.readyState === 'interactive' || document.readyState === 'complete' ) ) {
-         		var img_height = '';
-         		if ( img_height != '' ) {
-         			jQuery( 'head' ).append( '<style>.ddImage img {height:' + img_height + 'px !important;}</style>' );
-         		}			
-         	
-         		var ddData = [{ text:'Select...', value:'' },{ text: '20ft', value: '1.3', description: '', image: '' },{ text: '40ft', value: '2', description: '', image: '' },{ text: '45ft', value: '2.2', description: '', image: '' },{ text: '53ft', value: '2.5', description: '', image: '' }];
-         		
-         		var oDropdown = jQuery( '#6285c322de39dW168' ).msDropDown({
-         			byJson:{ data:ddData },
-         			on:{change:function( data, ui ) {
-         				var val = data.value;
-         				ui.data( 'value', val );
-         				bt_cc_eval_conditions( val, jQuery( ui ).closest( '.btQuoteSelect' ).data( 'condition' ) );
-         				bt_quote_total( jQuery( ui ).closest( '.btQuoteBooking' ) );
-         				bt_paypal_items( jQuery( ui ).closest( '.btQuoteBooking' ) );
-         			}}
-         		}).data('dd');
-         		if ( oDropdown ) {
-         			bt_cc_init_dropdown( oDropdown, '#6285c322de39dW168', 0 );
-         		}					
-         		bt_cc_6285c322de39dW168_init_finished = true;
-         	}
-         }, false);
-         
-      </script>
-      <script>
-         var bt_cc_6285c322de3d7W757_init_finished = false;
-         
-         document.addEventListener('readystatechange', function() { 
-         	if ( ! bt_cc_6285c322de3d7W757_init_finished && typeof(jQuery) !== 'undefined' && ( document.readyState === 'interactive' || document.readyState === 'complete' ) ) {
-         		var img_height = '';
-         		if ( img_height != '' ) {
-         			jQuery( 'head' ).append( '<style>.ddImage img {height:' + img_height + 'px !important;}</style>' );
-         		}			
-         	
-         		var ddData = [{ text:'Select...', value:'' },{ text: 'General', value: '1', description: '', image: '' },{ text: 'Fragile Goods', value: '1.2', description: '', image: '' },{ text: 'Fine Arts', value: '1.1', description: '', image: '' },{ text: 'Hazardous Goods', value: '1.5', description: '', image: '' }];
-         		
-         		var oDropdown = jQuery( '#6285c322de3d7W757' ).msDropDown({
-         			byJson:{ data:ddData },
-         			on:{change:function( data, ui ) {
-         				var val = data.value;
-         				ui.data( 'value', val );
-         				bt_cc_eval_conditions( val, jQuery( ui ).closest( '.btQuoteSelect' ).data( 'condition' ) );
-         				bt_quote_total( jQuery( ui ).closest( '.btQuoteBooking' ) );
-         				bt_paypal_items( jQuery( ui ).closest( '.btQuoteBooking' ) );
-         			}}
-         		}).data('dd');
-         		if ( oDropdown ) {
-         			bt_cc_init_dropdown( oDropdown, '#6285c322de3d7W757', 0 );
-         		}					
-         		bt_cc_6285c322de3d7W757_init_finished = true;
-         	}
-         }, false);
-         
-      </script>
-   </body>
+
+        </header>
+        <!-- HEADER END -->
+
+        <!-- CONTENT START -->
+        <div class="page-content">
+
+          <div class="twm-slider1-wrap">
+
+              <!-- Swiper -->
+              <div class="swiper twm-slider">
+                  <div class="swiper-wrapper">
+                      <!--Slide One -->
+                      <div class="swiper-slide">
+                          <div class="h-banner-wrap">
+                              <div class="h-banner-left">
+                                  <div class="h-bnr-top">
+                                      <h2>
+                                          <span class="title-outline">Авиа</span>
+                                          Перевозки
+                                      </h2>
+
+                                  </div>
+
+                              </div>
+                              <div class="h-banner-right">
+                                  <div class="h-bnr-r-inner">
+                                      <div class="h-bnr-media">
+                                          <img src="images/main-slider/slider1/plane.png" alt="#" class="slide-top">
+                                      </div>
+                                      <div class="h-bnr-animation bg-cover bg-center bg-image-moving" style="background-image:url(images/main-slider/slider1/bg1.jpg)">
+
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="cross-line-box left up-down"><img src="images/main-slider/slider1/cross-line-box.png" alt="#"></div>
+                              <div class="cross-line-box right up-down"><img src="images/main-slider/slider1/cross-line-box.png" alt="#"></div>
+                              <div class="circle-left-top zoon-in-out"></div>
+                          </div>
+                      </div>
+
+                      <!--Slide Two -->
+                      <div class="swiper-slide">
+                          <div class="h-banner-wrap">
+                              <div class="h-banner-left">
+                                  <div class="h-bnr-top">
+                                      <h2>
+                                          <span class="title-outline">Ж/Д</span> И <br/>
+                                         Машинами
+                                      </h2>
+
+                                  </div>
+
+                              </div>
+                              <div class="h-banner-right">
+                                  <div class="h-bnr-r-inner">
+                                      <div class="h-bnr-media">
+                                          <img src="images/main-slider/slider1/truck.png" alt="#" class="slide-top">
+                                      </div>
+                                      <div class="h-bnr-animation bg-cover bg-center bg-image-moving" style="background-image:url(images/main-slider/slider1/bg2.jpg)">
+
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="cross-line-box left up-down"><img src="images/main-slider/slider1/cross-line-box.png" alt="#"></div>
+                              <div class="cross-line-box right up-down"><img src="images/main-slider/slider1/cross-line-box.png" alt="#"></div>
+                              <div class="circle-left-top zoon-in-out"></div>
+                          </div>
+                      </div>
+
+                      <!--Slide Three -->
+                      <div class="swiper-slide">
+                          <div class="h-banner-wrap">
+                              <div class="h-banner-left">
+                                  <div class="h-bnr-top">
+                                      <h2>
+                                          <span class="title-outline">Морские</span>
+                                          Грузоперевозки
+                                      </h2>
+
+                                  </div>
+
+                              </div>
+                              <div class="h-banner-right">
+                                  <div class="h-bnr-r-inner">
+                                      <div class="h-bnr-media">
+                                          <img src="images/main-slider/slider1/ship.png" alt="#" class="slide-top">
+                                      </div>
+                                      <div class="h-bnr-animation bg-cover bg-center bg-image-moving" style="background-image:url(images/main-slider/slider1/bg3.jpg)">
+
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="cross-line-box left up-down"><img src="images/main-slider/slider1/cross-line-box.png" alt="#"></div>
+                              <div class="cross-line-box right up-down"><img src="images/main-slider/slider1/cross-line-box.png" alt="#"></div>
+                              <div class="circle-left-top zoon-in-out"></div>
+                          </div>
+                      </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+              </div>
+
+          </div>
+
+
+            <!-- WHAT WE DO SECTION START -->
+            <div id="about" class="section-full p-t120 p-b90 site-bg-gray tw-what-wedo-area">
+
+                <div class="container">
+
+                    <!-- TITLE START-->
+                    <div class="section-head center wt-small-separator-outer">
+                        <div class="wt-small-separator site-text-primary">
+                           <div>Что мы делаем?</div>
+                        </div>
+                        <h2 class="wt-title">Специализированные логистически услуги</h2>
+                        <p class="section-head-text">
+                          Мы имеем возможность перевозки грузов практически с любой точки земного шара.
+                          Мы заключили соглашения с ведущими компаниями по всему миру, что дает нам возможность предоставлять сочетание гибкой цены и скорости.
+                        </p>
+                    </div>
+                    <!-- TITLE END-->
+
+                    <div class="tw-what-wedo-section">
+
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-5 col-md-12">
+                                <div class="tw-what-wedo-media">
+                                    <img src="images/icons/img1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-xl-7 col-lg-7 col-md-12">
+                                <div class="tw-service-icon-box-wrap">
+                                    <!-- COLUMNS 1 -->
+                                    <div class="service-icon-box-two">
+
+                                        <div class="service-icon-box-two-media">
+                                            <img src="images/icons/pic1.png" alt="#">
+                                        </div>
+
+                                        <div class="service-icon-box-title">
+                                            <h3 class="wt-title">
+                                                <span class="site-text-primary">01.</span>Автомобильные перевозки
+                                            </h3>
+                                            <p>
+                                              Автомобильные перевозки - наиболее удобный и перспективный вид перевозки из / в Центральную Азию.
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- COLUMNS 2 -->
+                                    <div class="service-icon-box-two">
+
+                                        <div class="service-icon-box-two-media">
+                                            <img src="images/icons/pic2.png" alt="#">
+                                        </div>
+
+                                        <div class="service-icon-box-title">
+                                            <h3 class="wt-title">
+                                                <span class="site-text-primary">02.</span>Морские Перевозки
+                                            </h3>
+                                            <p>
+                                              Морские перевозки - это наиболее экономичный способ перемещения грузов.
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- COLUMNS 3 -->
+                                    <div class="service-icon-box-two">
+
+                                        <div class="service-icon-box-two-media">
+                                            <img src="images/icons/pic3.png" alt="#">
+                                        </div>
+
+                                        <div class="service-icon-box-title">
+                                            <h3 class="wt-title">
+                                                <span class="site-text-primary">03.</span>Авиа Перевозки
+                                            </h3>
+                                            <p>
+                                              Авиафрахт - наиболее быстрый способ доставки грузов.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- WHAT WE DO SECTION END -->
+
+            <!-- WHY CHOOSE US SECTION START -->
+            <div id="train" class="section-full-wrap site-bg-gray tw-why-choose-area">
+                <div class="section-full p-t120 p-b120 tw-why-choose-area-top bg-cover bg-no-repeat" style="background-image: url(images/background/bg-1.jpeg);">
+                    <div class="container">
+
+                        <div class="tw-why-choose-section">
+
+                            <div class="row">
+                                <div class="col-xl-5 col-lg-5 col-md-12">
+                                    <div class="tw-why-choose-left">
+                                        <!-- TITLE START-->
+                                        <div class="section-head left wt-small-separator-outer">
+                                            <div class="wt-small-separator site-text-primary">
+                                            <div>Ж/Д Перевозки</div>
+                                            </div>
+                                            <h2 class="wt-title">Контейнерные перевозки из Китая  </h2>
+                                        </div>
+                                        <!-- TITLE END-->
+                                        <strong>Наша компания организует контейнерные перевозки из любой точки КНР </strong>
+                                        <p class="section-head-text">
+                                          в Узбекистан, другие страны СНГ, Балтии, ОАЭ, Турцию. Основным портом отправки в Центральную Азию является порт
+                                          Ляньюньган, где формируются составы направлением в основные города Центральной Азии. Есть возможность отправки напрямую
+                                          из ЖД станций Циндао, Шанхай, Нингбо, Тяньжинь, Шеньжень и Гуанжоу.
+                                          Наши агенты в КНР могут организовать подачу контейнера практически в любой населенный пункт КНР. Оказываем содействие в получении
+                                          экспортных документов и таможенном оформлении.
+                                          Морские контейнерные перевозки в страны Балтии, Турцию и ОАЭ оказываются по самым выгодным ценам. Мы сотрудничаем с первоклассными
+                                          морскими линиями и предоставляем нашим партнерам выбор линии.
+                                          На всем пути следования контейнера предоставляется слежение.
+                                          Есть также возможность организовать сборные грузы из КНР в страны СНГ, Балтии, ОАЭ, Турцию
+                                        </p>
+                                        <div class="tw-why-choose-left-bottom">
+                                            <!-- <a href="about-1.html" class="btn-half site-button"><span>Learn More</span><em></em></a> -->
+                                            <div class="sign-font">
+                                                <span>HalolCargo</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-7 col-lg-7 col-md-12">
+                                    <div class="tw-why-choose-right">
+                                        <div class="tw-why-choose-media1 shine-effect">
+                                            <div class="shine-box">
+                                                <img src="images/w-choose/train1.jpeg" alt="" >
+                                            </div>
+                                        </div>
+                                        <div class="tw-why-choose-media2 slide-top shine-effect">
+                                            <div class="shine-box">
+                                                <img src="images/w-choose/train2.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tw-hilite-text-wrap2">
+                                <div class="tw-hilite-text">
+                                    <span>Логистика</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tw-any-help-section">
+                    <div class="container">
+                        <div class="tw-any-help-inner">
+                            <img src="images/w-choose/qt-icon.png" alt="">
+                            <span class="tw-24">Нужна консультация?</span>
+                            <span class="tw-help-title">Просто наберите наш номер</span>
+                            <span class="tw-help-number">(+998 77 000 02 08)</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- WHY CHOOSE US SECTION END -->
+
+
+
+
+            <!-- TESTIMONIALS SECTION START -->
+            <!-- <div id="customers" class="section-full bg-cover p-t120 p-b90 bg-cover tw-testimonial-1-area" style="background-image:url(images/background/bg-6.jpeg);">
+                <div class="tw-testimonial-inner-wrap">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-xl-6 col-lg-12 col-md-12">
+                                <div class="tw-client-logo-wrap">
+
+                                    <div class="section-head left wt-small-separator-outer">
+                                        <div class="wt-small-separator site-text-primary">
+                                            <div>Уважаемые</div>
+                                        </div>
+                                        <h2 class="wt-title">Клиенты и партнеры</h2>
+                                    </div>
+
+                                    <div class="tw-client-logo-inner">
+                                        <ul>
+                                            <li>
+                                                <div class="logo-media">
+                                                    <a href="services-1.html"><img src="images/client-logo/w1.png" alt=""></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="logo-media">
+                                                    <a href="services-1.html"><img src="images/client-logo/w2.png" alt=""></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="logo-media">
+                                                    <a href="services-1.html"><img src="images/client-logo/w3.png" alt=""></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="logo-media">
+                                                    <a href="services-1.html"><img src="images/client-logo/w4.png" alt=""></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="logo-media">
+                                                    <a href="services-1.html"><img src="images/client-logo/w5.png" alt=""></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="logo-media">
+                                                    <a href="services-1.html"><img src="images/client-logo/w6.png" alt=""></a>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                        <div class="truck-img">
+                                            <img src="images/truck.png" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tw-client-logo-bg"></div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-12 col-md-12">
+                                <div  class="tw-testimonial-border-outer">
+                                    <div class="slider-vertical-wrap">
+
+                                        <div class="slick-testimonials-thumbnails">
+
+                                            <div class="slick-item">
+                                                <div class="slick-testimonials-thumb">
+                                                    <img src="images/testimonials/pic1.jpeg" alt="one">
+                                                </div>
+                                            </div>
+                                            <div class="slick-item">
+                                                <div class="slick-testimonials-thumb">
+                                                    <img src="images/testimonials/pic2.jpeg" alt="two">
+                                                </div>
+                                            </div>
+                                            <div class="slick-item">
+                                                <div class="slick-testimonials-thumb">
+                                                    <img src="images/testimonials/pic3.jpeg" alt="three">
+                                                </div>
+                                            </div>
+                                            <div class="slick-item">
+                                                <div class="slick-testimonials-thumb">
+                                                    <img src="images/testimonials/pic4.jpeg" alt="four">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="slick-testimonials-content">
+                                            <div class="slick-item">
+                                            <div class="tw-testimonials1-cell">
+                                                    <div class="tw-testimonials1-text">
+                                                        <span class="tw-testimonials1-quote"><img src="images/quote.png" alt=""></span>
+                                                        Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                                                </div>
+                                                    <div class="tw-testimonials1-name">Peter Len</div>
+                                                    <div class="tw-testimonials1-postion">Web Designer</div>
+                                                </div>
+                                            </div>
+                                            <div class="slick-item">
+                                            <div class="tw-testimonials1-cell">
+                                                    <div class="tw-testimonials1-text">
+                                                        <span class="tw-testimonials1-quote"><img src="images/quote.png" alt=""></span>
+                                                        Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                                                </div>
+                                                    <div class="tw-testimonials1-name">Giselle</div>
+                                                    <div class="tw-testimonials1-postion">Developer</div>
+                                                </div>
+                                            </div>
+                                            <div class="slick-item">
+                                            <div class="tw-testimonials1-cell">
+                                                    <div class="tw-testimonials1-text">
+                                                        <span class="tw-testimonials1-quote"><img src="images/quote.png" alt=""></span>
+                                                        Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                                                </div>
+                                                    <div class="tw-testimonials1-name">Josephine</div>
+                                                    <div class="tw-testimonials1-postion">Web Designer</div>
+                                                </div>
+                                            </div>
+                                            <div class="slick-item">
+                                            <div class="tw-testimonials1-cell">
+                                                    <div class="tw-testimonials1-text">
+                                                        <span class="tw-testimonials1-quote"><img src="images/quote.png" alt=""></span>
+                                                        Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                                                </div>
+                                                    <div class="tw-testimonials1-name">Penelope</div>
+                                                    <div class="tw-testimonials1-postion">Developer</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tw-testimonial-border"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- TESTIMONIALS  SECTION End -->
+
+            <!-- SERVICES SECTION START -->
+            <div id="service" class="section-full p-t120 p-b90 site-bg-gray tw-service-gallery-style1-area tyre-mark-bg">
+
+                <div class="services-gallery-block-outer2">
+                    <div class="container">
+
+                        <!-- TITLE START-->
+                        <div class="section-head center wt-small-separator-outer">
+                            <div class="wt-small-separator site-text-primary">
+                                <div>ВСЕ УСЛУГИ</div>
+                            </div>
+                            <h2 class="wt-title">Наши заказчики доверяют нам</h2>
+                            <p class="section-head-text">
+                              Основными направлениями нашей деятельности являются:
+                            </p>
+                        </div>
+                        <!-- TITLE END-->
+
+                        <div class="section-content">
+                            <div class="services-gallery-style1">
+                                <div class="owl-carousel services-gallery-one owl-btn-bottom-center ">
+                                    <!-- COLUMNS 1 -->
+                                    <div class="item ">
+                                        <div class="service-box-style1">
+                                            <div class="service-content">
+                                                <div class="service-content-inner">
+                                                    <div class="service-content-top">
+                                                        <h3 class="service-title-large">
+                                                            <a>Авиа</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="service-content-bottom">
+                                                        <span class="service-title-large-number">01</span>
+                                                        <p>
+                                                          Авиафрахт - наиболее быстрый способ доставки грузов.
+                                                        </p>
+                                                        <span class="site-button-2"
+                                                            data-bs-toggle="modal"
+                                                            data-bs-target="#ServiceDetailAvia">
+                                                            Показать детали
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-media">
+                                                <img src="images/s-gallery/1.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- COLUMNS 2 -->
+                                    <div class="item ">
+                                        <div class="service-box-style1">
+                                            <div class="service-content">
+                                                <div class="service-content-inner">
+                                                    <div class="service-content-top">
+                                                        <h3 class="service-title-large">
+                                                            <a>Авто</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="service-content-bottom">
+                                                        <span class="service-title-large-number">02</span>
+                                                        <p>
+                                                          Узбекистан не имеет выхода к мировому океану.
+                                                        </p>
+                                                        <span class="site-button-2"
+                                                            data-bs-toggle="modal"
+                                                            data-bs-target="#ServiceDetailAvto">
+                                                            Показать детали
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-media">
+                                                <img src="images/s-gallery/2.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- COLUMNS 3 -->
+                                    <div class="item ">
+                                        <div class="service-box-style1">
+                                            <div class="service-content">
+                                                <div class="service-content-inner">
+                                                    <div class="service-content-top">
+                                                        <h3 class="service-title-large">
+                                                            <a>Морские</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="service-content-bottom">
+                                                        <span class="service-title-large-number">03</span>
+                                                        <p>
+                                                          Морские перевозки - это экономичный способ перемещения грузов.
+                                                        </p>
+                                                        <span class="site-button-2"
+                                                            data-bs-toggle="modal"
+                                                            data-bs-target="#ServiceDetailSea">
+                                                            Показать детали
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-media">
+                                                <img src="images/s-gallery/3.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- COLUMNS 4 -->
+                                    <div class="item ">
+                                        <div class="service-box-style1">
+                                            <div class="service-content">
+                                                <div class="service-content-inner">
+                                                    <div class="service-content-top">
+                                                        <h3 class="service-title-large">
+                                                            <a>Железнодорожные</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="service-content-bottom">
+                                                        <span class="service-title-large-number">04</span>
+                                                        <p>
+                                                            Надежный способ перевести габоритный груз, вогонами
+                                                        </p>
+                                                        <span class="site-button-2"
+                                                            data-bs-toggle="modal"
+                                                            data-bs-target="#ServiceDetailJd">
+                                                            Показать детали
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-media">
+                                                <img src="images/s-gallery/4.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- COLUMNS 6 -->
+                                    <div class="item ">
+                                        <div class="service-box-style1">
+                                            <div class="service-content">
+                                                <div class="service-content-inner">
+                                                    <div class="service-content-top">
+                                                        <h3 class="service-title-large">
+                                                            <a>Консолидация</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="service-content-bottom">
+                                                        <span class="service-title-large-number">05</span>
+                                                        <p>
+                                                          Международная перевозка отдельно взятых малых партий товара
+                                                        </p>
+                                                        <span class="site-button-2"
+                                                            data-bs-toggle="modal"
+                                                            data-bs-target="#ServiceDetailKons">
+                                                            Показать детали
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-media">
+                                                <img src="images/s-gallery/6.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tw-hilite-text-wrap">
+                    <div class="tw-hilite-text right">
+                        <span>Services</span>
+                    </div>
+                </div>
+
+            </div>
+            <!-- SERVICES SECTION END -->
+
+            <!-- COMPANY APPROCH SECTION START -->
+            <div id="statistics" class="section-full p-t120 p-b90 site-bg-white tw-company-approch-area">
+
+                <div class="container">
+
+                    <div class="wt-separator-two-part">
+                        <div class="row wt-separator-two-part-row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 wt-separator-two-part-left">
+                                <!-- TITLE START-->
+                                <div class="section-head left wt-small-separator-outer">
+                                    <div class="wt-small-separator site-text-primary">
+                                    <div>ПОДХОД КОМПАНИИ</div>
+                                    </div>
+                                    <h2 class="wt-title">Надежные логистические и транспортные решения</h2>
+                                </div>
+                                <!-- TITLE END-->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tw-company-approch-section">
+                        <div class="tw-company-approch-inner">
+                            <div class="tw-company-years">
+                                <div class="light">
+                                    <h1>15</h1>
+                                   <img src="images/image-text-bg.jpg" alt="">
+                                </div>
+                                <div class="tw-company-info">
+                                    <span>Многолетний опыт работы в сфере транспортных и логистических услуг</span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <!--block 1-->
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="counter-outer-two">
+                                        <div class="tw-counter-media">
+                                            <img src="images/icons/c-pic1.png" alt="">
+                                        </div>
+                                        <div class="icon-content">
+                                            <div class="tw-count-number site-text-primary"><span class="counter site-text-primary">195</span>+</div>
+                                            <h3 class="icon-content-info">Постоянные заказчики</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--block 2-->
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="counter-outer-two">
+                                        <div class="tw-counter-media">
+                                            <img src="images/icons/c-pic2.png" alt="">
+                                        </div>
+                                        <div class="icon-content">
+                                            <div class="tw-count-number site-text-primary"><span class="counter site-text-primary">1250</span>+</div>
+                                            <h3 class="icon-content-info">Количество перевозок</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--block 3-->
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="counter-outer-two">
+                                        <div class="tw-counter-media">
+                                            <img src="images/icons/c-pic3.png" alt="">
+                                        </div>
+                                        <div class="icon-content">
+                                            <div class="tw-count-number site-text-primary"><span class="counter site-text-primary">350</span>+</div>
+                                            <h3 class="icon-content-info">Технологии и СМИ</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- COMPANY APPROCH SECTION END -->
+
+
+
+
+
+        </div>
+        <!-- CONTENT END -->
+
+        <!-- FOOTER START -->
+        <footer class="footer-dark">
+
+
+            <div class="ftr-bg"  style="background-image: url(images/f-bg.jpeg);">
+                <!-- FOOTER BLOCKES START -->
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-6">
+
+                                <div class="widget widget_about">
+                                    <div class="logo-footer clearfix">
+                                        <a href="index.html"><img src="images/logo-dark.png" alt=""></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-9 col-md-6">
+                              <div class="row">
+
+
+                                <div class="col-lg-12 col-md-6">
+                                    <p>
+                                      Команду составляют профессиональные специалисты этой области,
+                                      по этому своим клиентам предлагаем ни только быструю и высококачественную
+                                      транспортировку грузов, но и бесплатно консультируем по вопросам связанным с их перевозкой.
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- FOOTER COPYRIGHT -->
+
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="footer-bottom-info">
+
+                            <div class="footer-copy-right">
+                                <span class="copyrights-text">© 2022 Все услуги лицензированы</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- FOOTER END -->
+
+        <!-- BUTTON TOP START -->
+		<button class="scroltop"><span class="fa fa-angle-up  relative" id="btn-vibrate"></span></button>
+
+ 	</div>
+
+    <div id="ServiceDetailAvia" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Авия перевозки</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                    Авиафрахт - наиболее быстрый способ доставки грузов.
+                    Через разветвленную сеть агентов наша фирма имеет возможность
+                    организовать авиа перевозки во всех направлениях: Китай, Европа, Россия, США, Ближний Восток. Причем как из Узбекистана,
+                    так и в Узбекистан.
+                </p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ServiceDetailAvto" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Авия перевозки</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+                <div class="modal-body">
+                    <p>
+                        Узбекистан не имеет выхода к мировому океану. У всех соседних стран также нет морских портов.
+                        Поэтому Автомобильные перевозки - наиболее удобный и перспективный вид перевозки из / в Центральную Азию.
+                    </p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ServiceDetailSea" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Морские перевозки</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+                <div class="modal-body">
+                    <p>
+                        Морские перевозки - это наиболее экономичный способ перемещения грузов.
+                        Это настолько дешевле, чем железнодорожный или автомобильный вид транспорта - что вы просто удивитесь.
+                    </p>
+                </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ServiceDetailJd" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Железнодорожные</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <p>
+                    Большой объем грузов из Европы следуемый в Таджикистан проходит через Ташкент.
+                    На сегодняшний день мы предоставляем услуги по оформлению транзитной декларации и доставка
+                    грузов авто транспортом до указанного склада в Республике Таджикистан.
+                  </p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="ServiceDetailKons" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Консолидация</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <p>
+                    Международная перевозка отдельно взятых малых партий товара является экономически нецелесообразной процедурой,
+                                                            именно поэтому чрезвычайно востребованной в последнее время стала услуга консолидации грузов. Заказывая такую услугу,
+                                                            заказчик получает возможность значительной экономии денежных средств.
+                  </p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- JAVASCRIPT  FILES ========================================= -->
+<script  src="js/jquery-3.6.0.min.js"></script><!-- JQUERY.MIN JS -->
+<script  src="js/popper.min.js"></script><!-- POPPER.MIN JS -->
+<script  src="js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+<script  src="js/magnific-popup.min.js"></script><!-- MAGNIFIC-POPUP JS -->
+<script  src="js/waypoints.min.js"></script><!-- WAYPOINTS JS -->
+<script  src="js/counterup.min.js"></script><!-- COUNTERUP JS -->
+<script  src="js/waypoints-sticky.min.js"></script><!-- STICKY HEADER -->
+<script  src="js/isotope.pkgd.min.js"></script><!-- MASONRY  -->
+<script  src="js/imagesloaded.pkgd.min.js"></script><!-- MASONRY  -->
+<script  src="js/owl.carousel.min.js"></script><!-- OWL  SLIDER  -->
+<script  src="js/slick.min.js"></script><!-- SLICK  Slider  -->
+<script  src="js/theia-sticky-sidebar.js"></script><!-- STICKY SIDEBAR  -->
+<script  src="js/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
+<script  src="js/lc_lightbox.lite.js" ></script><!-- IMAGE POPUP -->
+<script  src="js/bootstrap-slider.min.js"></script><!-- Form js -->
+<script  src="js/swiper-bundle.min.js"></script><!-- Swiper js -->
+<script  src="js/jquery.bgscroll.js"></script><!-- BACKGROUND SCROLL -->
+<script  src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+
+
+
+</body>
+
 </html>
-
